@@ -1,0 +1,8 @@
+dspy-ai>=2.0.0
+openai>=1.0.0
+anthropic>=0.7.0
+together>=0.1.0
+pandas>=1.5.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+jupyter>=1.0.0
