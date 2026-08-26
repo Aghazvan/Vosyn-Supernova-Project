@@ -1,0 +1,5 @@
+sample_id,direction,source_en,mt_output,reference,reviewer_ids,semantic_accuracy_gold,fluency_gold,tone_register_gold,emotional_consistency_gold,cultural_appropriateness_gold,dialect_correctness_gold,overall_gold,notes
+YUE_001,EN_YUE,"The quick brown fox jumps over the lazy dog.","嗰隻啡色快狐狸跳過嗰隻懶狗",,"R1;R2",9,9,8,8,8,9,8.5,"reconciled after 0.5pt fluency gap"
+YUE_002,EN_YUE,"Can I get a coffee, please?","唔該畀杯咖啡我",,"R1;R2",9,9,9,8,9,9,9,"strong colloquial register match"
+CMN_001,EN_CMN,"Following the process, HJR-3 will be reviewed again in 2015 or 2016.","按照流程，HJR-3 将在 2015 年或 2016 年由下一届当选立法机构再次审查以继续进行。","按照这一程序，HJR-3将由下一届选出的立法机构在2015年或2016年再次审议，以继续推进该程序。","R1;R3",8,9,8,8,8,9,8,"minor lexical diff vs reference, not penalized"
+CMN_002,EN_CMN,"It is going to rain this afternoon.","今天下午会下雨。",,"R1;R3",9,9,8,7,8,9,8.3,"deliberately simple, low-difficulty tier sample"
