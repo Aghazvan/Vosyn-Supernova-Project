@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-09-08T15:20:58.866593+00:00",
+  "cuda_available": true,
+  "device_count": 2,
+  "devices": [
+    {
+      "index": 0,
+      "name": "Tesla T4",
+      "total_memory_gb": 14.56
+    },
+    {
+      "index": 1,
+      "name": "Tesla T4",
+      "total_memory_gb": 14.56
+    }
+  ]
+}

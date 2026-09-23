@@ -1,0 +1,22 @@
+{
+  "run_id": "sprint51_task2_20260908T152058Z",
+  "timestamp_utc": "2026-09-08T17:04:33.128349+00:00",
+  "baseline_version": "baseline-reconstructed-v1",
+  "baseline_mode": "reconstruct",
+  "smoke_test_input": "Her sister also sings very beautifully.",
+  "smoke_test_output": "她姐姐也很好地唱歌。",
+  "rollback_smoke_test_failed": false,
+  "sealed_test_integrity": {
+    "sealed_final_test_path_configured": "/kaggle/input/notebooks/abdighaz/sprint51-task1-prepare-mandarin-data/mandarin_task1_dataset/data/sealed/final_test.jsonl",
+    "sealed_final_test_path_from_manifest": "/kaggle/working/mandarin_task1_dataset/data/sealed/final_test.jsonl",
+    "sealed_final_test_sha256_from_manifest": "1cfe0efed56f5f545ed1c73feb8e8fccda55e639ac81d66b6e2907fd010c5b02",
+    "opened_for_eval": false,
+    "note": "Task 2 does not open sealed final test contents; uses manifest hash only."
+  },
+  "sealed_test_contamination_detected": false,
+  "memorization_leakage_scan": {
+    "train_sample_size": 1500,
+    "n_flagged": 0,
+    "flagged_examples_preview": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "total_prompt_validation_rows": 3500,
+  "filtered_en2zh_rows": 1750,
+  "selected_eval_rows": 200,
+  "dry_run": false
+}

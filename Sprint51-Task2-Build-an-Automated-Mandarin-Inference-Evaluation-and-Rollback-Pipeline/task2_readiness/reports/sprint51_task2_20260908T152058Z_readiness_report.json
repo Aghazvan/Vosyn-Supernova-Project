@@ -1,0 +1,121 @@
+{
+  "run_id": "sprint51_task2_20260908T152058Z",
+  "generated_at": "2026-09-08T17:04:33.482797+00:00",
+  "decision": "review-revise",
+  "decision_reasons": [
+    "met review-revise thresholds but not advance thresholds"
+  ],
+  "candidate": {
+    "version": "candidate-v1",
+    "type": "lora_adapter",
+    "base_model": "unsloth/Llama-3.2-1B-bnb-4bit",
+    "candidate_manifest_path": "/kaggle/input/notebooks/abdighaz/sprint51-task1-full-finetuning-pipeline/task1_en2zh_outputs/manifests/candidate_manifest.json"
+  },
+  "baseline": {
+    "version": "baseline-reconstructed-v1",
+    "mode": "reconstruct"
+  },
+  "judge": {
+    "model_used": "Qwen/Qwen3-8B",
+    "tier": "primary",
+    "judge_registry_path": "/kaggle/working/task2_readiness/manifests/judge_registry.json",
+    "golden_calibration": {
+      "judge_model": "Qwen/Qwen3-8B",
+      "judge_tier": "primary",
+      "selection_reason": "Selected primary judge; max GPU memory 14.56 GB.",
+      "direction": "EN_CMN",
+      "n_total_samples": 50,
+      "n_judge_failed": 0,
+      "coverage": 1.0,
+      "mean_confidence": 1.0,
+      "pearson_r": 0.731,
+      "spearman_rho": 0.701,
+      "mae": 0.694,
+      "weighted_kappa": 0.678,
+      "n": 50,
+      "thresholds": {
+        "min_coverage": 0.9,
+        "min_spearman_rho": 0.45,
+        "min_mean_confidence": 0.7
+      },
+      "scored_file": "/kaggle/working/task2_readiness/golden_eval/sprint51_task2_20260908T152058Z_golden_scored_en_cmn.csv"
+    }
+  },
+  "metrics": {
+    "baseline": {
+      "system": "baseline",
+      "n_examples": 200,
+      "n_failures": 0,
+      "failure_rate": 0.0,
+      "mean_quality_score": 5.75,
+      "n_scored": 200,
+      "wrong_language_rate": 0.165,
+      "invalid_output_rate": 0.02,
+      "safety_violation_rate": 0.0,
+      "memorization_flag_rate": 0.0,
+      "format_invalid_rate": 0.02,
+      "latency_p50_seconds": 0.30025,
+      "latency_p95_seconds": 0.6717799999999999,
+      "mean_judge_confidence": 1.0
+    },
+    "candidate": {
+      "system": "candidate",
+      "n_examples": 200,
+      "n_failures": 0,
+      "failure_rate": 0.0,
+      "mean_quality_score": 7.89,
+      "n_scored": 200,
+      "wrong_language_rate": 0.025,
+      "invalid_output_rate": 0.0,
+      "safety_violation_rate": 0.0,
+      "memorization_flag_rate": 0.0,
+      "format_invalid_rate": 0.0,
+      "latency_p50_seconds": 0.3904,
+      "latency_p95_seconds": 0.7352499999999995,
+      "mean_judge_confidence": 1.0
+    },
+    "domain_regression": {
+      "quality_delta_vs_baseline": 2.1399999999999997,
+      "regressed": false
+    }
+  },
+  "rollback": {
+    "run_id": "sprint51_task2_20260908T152058Z",
+    "timestamp_utc": "2026-09-08T17:04:33.128349+00:00",
+    "baseline_version": "baseline-reconstructed-v1",
+    "baseline_mode": "reconstruct",
+    "smoke_test_input": "Her sister also sings very beautifully.",
+    "smoke_test_output": "她姐姐也很好地唱歌。",
+    "rollback_smoke_test_failed": false,
+    "sealed_test_integrity": {
+      "sealed_final_test_path_configured": "/kaggle/input/notebooks/abdighaz/sprint51-task1-prepare-mandarin-data/mandarin_task1_dataset/data/sealed/final_test.jsonl",
+      "sealed_final_test_path_from_manifest": "/kaggle/working/mandarin_task1_dataset/data/sealed/final_test.jsonl",
+      "sealed_final_test_sha256_from_manifest": "1cfe0efed56f5f545ed1c73feb8e8fccda55e639ac81d66b6e2907fd010c5b02",
+      "opened_for_eval": false,
+      "note": "Task 2 does not open sealed final test contents; uses manifest hash only."
+    },
+    "sealed_test_contamination_detected": false,
+    "memorization_leakage_scan": {
+      "train_sample_size": 1500,
+      "n_flagged": 0,
+      "flagged_examples_preview": []
+    }
+  },
+  "hardware_probe": {
+    "timestamp_utc": "2026-09-08T15:20:58.866593+00:00",
+    "cuda_available": true,
+    "device_count": 2,
+    "devices": [
+      {
+        "index": 0,
+        "name": "Tesla T4",
+        "total_memory_gb": 14.56
+      },
+      {
+        "index": 1,
+        "name": "Tesla T4",
+        "total_memory_gb": 14.56
+      }
+    ]
+  }
+}

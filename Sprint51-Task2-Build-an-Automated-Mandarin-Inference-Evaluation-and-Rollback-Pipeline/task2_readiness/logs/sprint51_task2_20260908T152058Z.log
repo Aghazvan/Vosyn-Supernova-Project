@@ -1,0 +1,19 @@
+[2026-09-08T15:20:58.788104+00:00] Run started: sprint51_task2_20260908T152058Z
+[2026-09-08T15:20:58.867646+00:00] Judge selected: Qwen/Qwen3-8B | primary | Selected primary judge; max GPU memory 14.56 GB.
+[2026-09-08T15:20:58.905434+00:00] Sealed test integrity record saved
+[2026-09-08T15:20:58.975209+00:00] Selected 200 en->zh eval rows
+[2026-09-08T15:22:42.286186+00:00] baseline done: 200 rows, failures=0
+[2026-09-08T15:22:42.659166+00:00] Baseline outputs saved: /kaggle/working/task2_readiness/outputs/baseline/sprint51_task2_20260908T152058Z_baseline_outputs.jsonl
+[2026-09-08T15:24:30.748293+00:00] candidate done: 200 rows, failures=0
+[2026-09-08T15:24:31.226555+00:00] Candidate outputs saved: /kaggle/working/task2_readiness/outputs/candidate/sprint51_task2_20260908T152058Z_candidate_outputs.jsonl
+[2026-09-08T15:24:31.373230+00:00] Gold set validation: {'counts': {'EN_CMN': 50, 'EN_YUE': 50}, 'issues': [], 'n_total': 100}
+[2026-09-08T15:24:31.373551+00:00] Mandarin golden samples for calibration: 50
+[2026-09-08T15:33:40.081690+00:00] Judge calibration summary: {'judge_model': 'Qwen/Qwen3-8B', 'judge_tier': 'primary', 'selection_reason': 'Selected primary judge; max GPU memory 14.56 GB.', 'direction': 'EN_CMN', 'n_total_samples': 50, 'n_judge_failed': 0, 'coverage': 1.0, 'mean_confidence': 1.0, 'pearson_r': 0.731, 'spearman_rho': 0.701, 'mae': 0.694, 'weighted_kappa': 0.678, 'n': 50, 'thresholds': {'min_coverage': 0.9, 'min_spearman_rho': 0.45, 'min_mean_confidence': 0.7}, 'scored_file': '/kaggle/working/task2_readiness/golden_eval/sprint51_task2_20260908T152058Z_golden_scored_en_cmn.csv'}
+[2026-09-08T15:33:40.149343+00:00] Judge registry frozen: /kaggle/working/task2_readiness/manifests/judge_registry.json
+[2026-09-08T17:04:19.164634+00:00] Baseline and candidate scored with frozen judge
+[2026-09-08T17:04:19.572266+00:00] Quality delta vs baseline: 2.1399999999999997
+[2026-09-08T17:04:19.725262+00:00] Readiness policy frozen: /kaggle/working/task2_readiness/manifests/readiness_policy.json
+[2026-09-08T17:04:33.128816+00:00] Rollback evidence saved: /kaggle/working/task2_readiness/rollback_evidence/sprint51_task2_20260908T152058Z_rollback_evidence.json
+[2026-09-08T17:04:33.308364+00:00] FINAL DECISION: review-revise
+[2026-09-08T17:04:33.309006+00:00] Reasons: ['met review-revise thresholds but not advance thresholds']
+[2026-09-08T17:04:33.483875+00:00] Reports saved: /kaggle/working/task2_readiness/reports/sprint51_task2_20260908T152058Z_readiness_report.json and /kaggle/working/task2_readiness/reports/sprint51_task2_20260908T152058Z_readiness_report.md

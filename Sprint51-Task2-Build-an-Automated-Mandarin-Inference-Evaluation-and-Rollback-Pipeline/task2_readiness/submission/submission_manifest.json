@@ -1,0 +1,16 @@
+{
+  "run_id": "sprint51_task2_20260908T152058Z",
+  "created_at": "2026-09-08T17:04:33.637743+00:00",
+  "artifacts": {
+    "judge_registry": "/kaggle/working/task2_readiness/manifests/judge_registry.json",
+    "readiness_policy": "/kaggle/working/task2_readiness/manifests/readiness_policy.json",
+    "evaluation_summary": "/kaggle/working/task2_readiness/candidate_eval/sprint51_task2_20260908T152058Z_evaluation_summary.json",
+    "readiness_report_json": "/kaggle/working/task2_readiness/reports/sprint51_task2_20260908T152058Z_readiness_report.json",
+    "readiness_report_md": "/kaggle/working/task2_readiness/reports/sprint51_task2_20260908T152058Z_readiness_report.md",
+    "rollback_evidence": "/kaggle/working/task2_readiness/rollback_evidence/sprint51_task2_20260908T152058Z_rollback_evidence.json",
+    "baseline_outputs": "/kaggle/working/task2_readiness/outputs/baseline/sprint51_task2_20260908T152058Z_baseline_outputs.jsonl",
+    "candidate_outputs": "/kaggle/working/task2_readiness/outputs/candidate/sprint51_task2_20260908T152058Z_candidate_outputs.jsonl",
+    "golden_scored_en_cmn": "/kaggle/working/task2_readiness/golden_eval/sprint51_task2_20260908T152058Z_golden_scored_en_cmn.csv"
+  },
+  "github_link": "TODO: replace with exact GitHub link after push"
+}

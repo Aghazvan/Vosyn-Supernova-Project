@@ -1,0 +1,35 @@
+{
+  "registry_version": "judge-registry-v1",
+  "frozen_at": "2026-09-08T15:33:40.148464+00:00",
+  "run_id": "sprint51_task2_20260908T152058Z",
+  "judge_model": "Qwen/Qwen3-8B",
+  "judge_tier": "primary",
+  "selection_reason": "Selected primary judge; max GPU memory 14.56 GB.",
+  "max_seq_length": 4096,
+  "max_new_tokens": 256,
+  "temperature": 0.0,
+  "load_in_4bit": true,
+  "num_runs": 3,
+  "judge_prompt_type": "sprint50_local_judge_mandarin_json_score_only",
+  "golden_calibration": {
+    "judge_model": "Qwen/Qwen3-8B",
+    "judge_tier": "primary",
+    "selection_reason": "Selected primary judge; max GPU memory 14.56 GB.",
+    "direction": "EN_CMN",
+    "n_total_samples": 50,
+    "n_judge_failed": 0,
+    "coverage": 1.0,
+    "mean_confidence": 1.0,
+    "pearson_r": 0.731,
+    "spearman_rho": 0.701,
+    "mae": 0.694,
+    "weighted_kappa": 0.678,
+    "n": 50,
+    "thresholds": {
+      "min_coverage": 0.9,
+      "min_spearman_rho": 0.45,
+      "min_mean_confidence": 0.7
+    },
+    "scored_file": "/kaggle/working/task2_readiness/golden_eval/sprint51_task2_20260908T152058Z_golden_scored_en_cmn.csv"
+  }
+}

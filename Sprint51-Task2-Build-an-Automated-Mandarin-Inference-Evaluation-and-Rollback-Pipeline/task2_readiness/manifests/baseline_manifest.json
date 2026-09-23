@@ -1,0 +1,6 @@
+{
+  "baseline_mode": "reconstruct",
+  "baseline_version": "baseline-reconstructed-v1",
+  "base_model": "unsloth/Llama-3.2-1B-Instruct-bnb-4bit",
+  "prompt_sha256": "d9a4fd24aa86b5a9921c93ed1ee8537cd6a7c5add2ff9c27b9ce6ad5cc6596dd"
+}

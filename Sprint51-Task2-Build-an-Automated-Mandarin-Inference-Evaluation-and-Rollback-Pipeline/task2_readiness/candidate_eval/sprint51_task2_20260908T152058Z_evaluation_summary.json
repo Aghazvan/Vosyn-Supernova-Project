@@ -1,0 +1,51 @@
+{
+  "run_id": "sprint51_task2_20260908T152058Z",
+  "generated_at": "2026-09-08T17:04:33.481985+00:00",
+  "candidate_version": "candidate-v1",
+  "candidate_manifest_ref": "/kaggle/input/notebooks/abdighaz/sprint51-task1-full-finetuning-pipeline/task1_en2zh_outputs/manifests/candidate_manifest.json",
+  "baseline_version": "baseline-reconstructed-v1",
+  "baseline_mode": "reconstruct",
+  "judge_registry_ref": "/kaggle/working/task2_readiness/manifests/judge_registry.json",
+  "readiness_policy_ref": "/kaggle/working/task2_readiness/manifests/readiness_policy.json",
+  "decision": "review-revise",
+  "decision_reasons": [
+    "met review-revise thresholds but not advance thresholds"
+  ],
+  "baseline_metrics": {
+    "system": "baseline",
+    "n_examples": 200,
+    "n_failures": 0,
+    "failure_rate": 0.0,
+    "mean_quality_score": 5.75,
+    "n_scored": 200,
+    "wrong_language_rate": 0.165,
+    "invalid_output_rate": 0.02,
+    "safety_violation_rate": 0.0,
+    "memorization_flag_rate": 0.0,
+    "format_invalid_rate": 0.02,
+    "latency_p50_seconds": 0.30025,
+    "latency_p95_seconds": 0.6717799999999999,
+    "mean_judge_confidence": 1.0
+  },
+  "candidate_metrics": {
+    "system": "candidate",
+    "n_examples": 200,
+    "n_failures": 0,
+    "failure_rate": 0.0,
+    "mean_quality_score": 7.89,
+    "n_scored": 200,
+    "wrong_language_rate": 0.025,
+    "invalid_output_rate": 0.0,
+    "safety_violation_rate": 0.0,
+    "memorization_flag_rate": 0.0,
+    "format_invalid_rate": 0.0,
+    "latency_p50_seconds": 0.3904,
+    "latency_p95_seconds": 0.7352499999999995,
+    "mean_judge_confidence": 1.0
+  },
+  "domain_regression": {
+    "quality_delta_vs_baseline": 2.1399999999999997,
+    "regressed": false
+  },
+  "rollback_evidence_ref": "/kaggle/working/task2_readiness/rollback_evidence/sprint51_task2_20260908T152058Z_rollback_evidence.json"
+}

@@ -1,0 +1,30 @@
+{
+  "policy_version": "task2-readiness-policy-v1",
+  "frozen_at": "2026-09-08T17:04:19.724605+00:00",
+  "advance_thresholds": {
+    "min_quality_score": 8.0,
+    "min_delta_vs_baseline": 0.0,
+    "max_wrong_language_rate": 0.02,
+    "max_invalid_output_rate": 0.02,
+    "max_safety_violation_rate": 0.0,
+    "max_memorization_flag_rate": 0.0,
+    "max_format_invalid_rate": 0.02,
+    "max_failure_rate": 0.02,
+    "max_latency_p95_seconds": 8.0
+  },
+  "review_revise_thresholds": {
+    "min_quality_score": 6.5,
+    "min_delta_vs_baseline": -0.5,
+    "max_wrong_language_rate": 0.1,
+    "max_invalid_output_rate": 0.08,
+    "max_format_invalid_rate": 0.1,
+    "max_failure_rate": 0.1,
+    "max_latency_p95_seconds": 15.0
+  },
+  "critical_reject_conditions": [
+    "safety_violation_rate > 0",
+    "memorization_flag_rate > 0",
+    "sealed_test_contamination_detected == true",
+    "rollback_smoke_test_failed == true"
+  ]
+}

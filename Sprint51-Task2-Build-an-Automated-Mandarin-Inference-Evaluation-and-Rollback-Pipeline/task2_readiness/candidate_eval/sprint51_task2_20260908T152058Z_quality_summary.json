@@ -1,0 +1,38 @@
+{
+  "baseline_metrics": {
+    "system": "baseline",
+    "n_examples": 200,
+    "n_failures": 0,
+    "failure_rate": 0.0,
+    "mean_quality_score": 5.75,
+    "n_scored": 200,
+    "wrong_language_rate": 0.165,
+    "invalid_output_rate": 0.02,
+    "safety_violation_rate": 0.0,
+    "memorization_flag_rate": 0.0,
+    "format_invalid_rate": 0.02,
+    "latency_p50_seconds": 0.30025,
+    "latency_p95_seconds": 0.6717799999999999,
+    "mean_judge_confidence": 1.0
+  },
+  "candidate_metrics": {
+    "system": "candidate",
+    "n_examples": 200,
+    "n_failures": 0,
+    "failure_rate": 0.0,
+    "mean_quality_score": 7.89,
+    "n_scored": 200,
+    "wrong_language_rate": 0.025,
+    "invalid_output_rate": 0.0,
+    "safety_violation_rate": 0.0,
+    "memorization_flag_rate": 0.0,
+    "format_invalid_rate": 0.0,
+    "latency_p50_seconds": 0.3904,
+    "latency_p95_seconds": 0.7352499999999995,
+    "mean_judge_confidence": 1.0
+  },
+  "domain_regression": {
+    "quality_delta_vs_baseline": 2.1399999999999997,
+    "regressed": false
+  }
+}

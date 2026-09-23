@@ -1,0 +1,7 @@
+{
+  "sealed_final_test_path_configured": "/kaggle/input/notebooks/abdighaz/sprint51-task1-prepare-mandarin-data/mandarin_task1_dataset/data/sealed/final_test.jsonl",
+  "sealed_final_test_path_from_manifest": "/kaggle/working/mandarin_task1_dataset/data/sealed/final_test.jsonl",
+  "sealed_final_test_sha256_from_manifest": "1cfe0efed56f5f545ed1c73feb8e8fccda55e639ac81d66b6e2907fd010c5b02",
+  "opened_for_eval": false,
+  "note": "Task 2 does not open sealed final test contents; uses manifest hash only."
+}
