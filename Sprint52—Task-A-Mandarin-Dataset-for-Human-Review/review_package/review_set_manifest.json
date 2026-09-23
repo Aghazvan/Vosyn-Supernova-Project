@@ -1,0 +1,64 @@
+{
+  "sprint": "Sprint 52 Task A",
+  "generated": "2026-09-23",
+  "target_per_direction": 120,
+  "target_per_direction_per_tier": {
+    "clean": 40,
+    "domain": 40,
+    "colloquial": 40
+  },
+  "directions": [
+    "en2cmn"
+  ],
+  "sources": {
+    "clean": {
+      "dataset_name": "facebook/flores",
+      "config": "eng_Latn-zho_Hans",
+      "license": "CC-BY-SA 4.0"
+    },
+    "domain": {
+      "dataset_name": "wmt/wmt19",
+      "config": "zh-en",
+      "license": "Unknown"
+    },
+    "colloquial": {
+      "dataset_name": "FradSer/OpenSubtitles-en-zh-cn-20m",
+      "config": "default",
+      "license": "MIT"
+    }
+  },
+  "random_seed": 52,
+  "length_thresholds": {
+    "clean": {
+      "min_chars": 15,
+      "max_chars": 300
+    },
+    "domain": {
+      "min_chars": 15,
+      "max_chars": 300
+    },
+    "colloquial": {
+      "min_chars": 2,
+      "max_chars": 300
+    }
+  },
+  "excluded_hash_count": 45938,
+  "total_rows": 120,
+  "counts_by_direction_tier": {
+    "en2cmn_clean": 40,
+    "en2cmn_domain": 40,
+    "en2cmn_colloquial": 40
+  },
+  "rubric_dimensions": [
+    "Semantic_Accuracy",
+    "Fluency",
+    "Tone_Register",
+    "Emotional_Consistency",
+    "Cultural_Appropriateness",
+    "Dialect_Correctness"
+  ],
+  "file_hashes": {
+    "csv": "e2d87c95fa19461e94c93fb729b8678123ce7d86c92fb17503d5cb42d837fefa",
+    "jsonl": "b8157935671279926f13670385908bebe6b647daf76daf48ff04696a5c1f87ee"
+  }
+}
