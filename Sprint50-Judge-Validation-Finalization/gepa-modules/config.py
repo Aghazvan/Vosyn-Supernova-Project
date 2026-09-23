@@ -5,7 +5,7 @@ against the gold set.
 Fill in JUDGE_CONFIGS below with each configuration actually proposed this
 sprint. Each entry needs a judge_fn: Callable[[english, mt_output, direction],
 RunResult] -- wrap whichever judge call already exists (Sprint 47/48's Groq
-JudgeModel, Sprint 49's local Qwen3 LocalJudgeModel, or a new candidate) so
+JudgeModel, Sprint 49's local Qwen3 Local Judge Model, or a new candidate) so
 that it returns a RunResult instead of raising or returning None on parse
 failure. That's what lets aggregate_runs() detect malformed output instead of
 it silently becoming a missing/zero value.
