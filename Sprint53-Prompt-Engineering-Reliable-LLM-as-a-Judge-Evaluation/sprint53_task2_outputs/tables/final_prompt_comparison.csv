@@ -1,0 +1,6 @@
+prompt_id,A_spearman,A_pearson,A_mae,A_kappa,A_coverage,A_json_success,A_parse_success,critical_failure_score_recall,structured_failure_recall,false_positive_rate,n_samples,mean_run_std,median_run_std,mean_run_range,median_run_range,exact_agreement_rate,high_disagreement_rate,mean_judge_confidence,mean_parse_success,mean_strict_json_success,B_spearman,B_mae,B_kappa,final_rank_score
+P4_combined,0.657,0.623,1.034,0.48,1.0,1.0,1.0,0.412,0.176,0.0,50.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.657,1.034,0.48,0.6690232598511691
+P1_compliance,0.69,0.626,0.714,0.611,1.0,0.84,1.0,0.529,0.0,0.0,50.0,0.055,0.0,0.12,0.0,0.88,0.0,0.989,1.0,0.828,0.707,0.668,0.613,0.6265897452706398
+P0_baseline,0.701,0.731,0.694,0.678,1.0,0.72,1.0,0.235,0.0,0.0,50.0,0.055,0.0,0.12,0.0,0.88,0.0,0.989,1.0,0.756,0.719,0.704,0.656,0.44999999999999996
+P2_semantic,0.603,0.592,0.758,0.526,1.0,1.0,1.0,0.294,0.235,0.0,,,,,,,,,,,,,,
+P3_error_first,0.591,0.528,1.922,0.245,1.0,1.0,1.0,0.353,0.235,0.0,,,,,,,,,,,,,,

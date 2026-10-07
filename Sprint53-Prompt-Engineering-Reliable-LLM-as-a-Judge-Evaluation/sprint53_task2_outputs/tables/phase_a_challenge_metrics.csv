@@ -1,0 +1,6 @@
+prompt_id,n_challenge,n_critical,critical_failure_score_recall,structured_failure_recall,false_positive_rate,mean_critical_score,mean_noncritical_score,strict_json_success,parse_success
+P1_compliance,20,17,0.529,0.0,0.0,4.353,10.0,0.0,1.0
+P4_combined,20,17,0.412,0.176,0.0,4.471,9.667,0.2,1.0
+P3_error_first,20,17,0.353,0.235,0.0,4.647,9.333,0.4,1.0
+P2_semantic,20,17,0.294,0.235,0.0,5.471,10.0,0.35,1.0
+P0_baseline,20,17,0.235,0.0,0.0,6.0,10.0,0.0,1.0

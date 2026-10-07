@@ -1,0 +1,6 @@
+prompt_id,n_total,n_usable,coverage,strict_json_success_gold,parse_success_gold,pearson_r,spearman_rho,mae,weighted_kappa,n,n_challenge,n_critical,critical_failure_score_recall,structured_failure_recall,false_positive_rate,mean_critical_score,mean_noncritical_score,strict_json_success_challenge,parse_success_challenge,selection_score
+P1_compliance,50,50,1.0,0.84,1.0,0.626,0.69,0.714,0.611,50,20,17,0.529,0.0,0.0,4.353,10.0,0.0,1.0,0.7844672638973816
+P4_combined,50,50,1.0,1.0,1.0,0.623,0.657,1.034,0.48,50,20,17,0.412,0.176,0.0,4.471,9.667,0.2,1.0,0.662315870303208
+P0_baseline,50,50,1.0,0.72,1.0,0.731,0.701,0.694,0.678,50,20,17,0.235,0.0,0.0,6.0,10.0,0.0,1.0,0.6
+P2_semantic,50,50,1.0,1.0,1.0,0.592,0.603,0.758,0.526,50,20,17,0.294,0.235,0.0,5.471,10.0,0.35,1.0,0.5393833399239534
+P3_error_first,50,50,1.0,1.0,1.0,0.528,0.591,1.922,0.245,50,20,17,0.353,0.235,0.0,4.647,9.333,0.4,1.0,0.2802721088435374

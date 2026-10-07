@@ -1,0 +1,4 @@
+prompt_id,n_total,n_usable,coverage,strict_json_success,parse_success,pearson_r,spearman_rho,mae,weighted_kappa,n
+P0_baseline,50,50,1.0,0.756,1.0,0.721,0.719,0.704,0.656,50
+P1_compliance,50,50,1.0,0.828,1.0,0.636,0.707,0.668,0.613,50
+P4_combined,50,50,1.0,1.0,1.0,0.623,0.657,1.034,0.48,50

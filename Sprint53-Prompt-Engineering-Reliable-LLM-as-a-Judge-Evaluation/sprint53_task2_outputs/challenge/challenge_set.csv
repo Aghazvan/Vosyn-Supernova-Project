@@ -1,0 +1,21 @@
+sample_id,source_en,candidate_zh,category,critical_failure,expected_max_score
+CH01_correct,Please close the window before you leave.,请在离开前关上窗户。,correct,False,10
+CH02_valid_paraphrase,The meeting has been postponed until Friday.,会议改到周五举行。,valid_paraphrase,False,10
+CH03_minor_fluency,I will call you when I arrive.,当我到达的时候，我会给你打电话。,minor_fluency,False,8
+CH04_major_mistranslation,The train leaves at six in the morning.,火车晚上六点出发。,mistranslation,True,4
+CH05_omission,"She bought apples, oranges, and two bottles of water.",她买了苹果和橙子。,omission,True,5
+CH06_addition,He opened the door.,他生气地打开门，然后离开了房间。,addition,True,5
+CH07_wrong_entity,Maria sent the report to David.,玛丽亚把报告发给了彼得。,entity,True,4
+CH08_wrong_number,The package contains 15 tablets.,这个包装里有五片药片。,number,True,4
+CH09_negation,Do not restart the computer.,请重新启动电脑。,negation,True,3
+CH10_untranslated_7_francs,7 francs.,7 francs.,untranslated,True,2
+CH11_untranslated_sentence,The doctor will see you tomorrow.,The doctor will see you tomorrow.,untranslated,True,2
+CH12_english_leakage,Please upload the final report today.,请今天 upload 最终报告。,source_leakage,True,4
+CH13_traditional,The weather is very good today.,今天天氣非常好。,traditional_script,True,4
+CH14_mixed_script,Please confirm the information.,请確認这些信息。,mixed_script,True,5
+CH15_cantonese,What are you doing?,你做緊乜嘢？,cantonese,True,3
+CH16_pinyin,Thank you very much.,Feichang ganxie ni.,pinyin,True,2
+CH17_fluent_but_wrong,The company reported a loss this quarter.,该公司本季度实现了盈利。,fluent_but_wrong,True,3
+CH18_wrong_date,The deadline is October 12.,截止日期是10月21日。,number,True,4
+CH19_partial_translation,"Click Save, then restart the application.",点击“保存”，then restart the application.,source_leakage,True,4
+CH20_idiom,Let's call it a day.,让我们称它为一天。,idiom_mistranslation,True,4

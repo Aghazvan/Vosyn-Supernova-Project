@@ -1,0 +1,4 @@
+prompt_id,n_samples,mean_run_std,median_run_std,mean_run_range,median_run_range,exact_agreement_rate,high_disagreement_rate,mean_judge_confidence,mean_parse_success,mean_strict_json_success
+P4_combined,50,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0
+P0_baseline,50,0.055,0.0,0.12,0.0,0.88,0.0,0.989,1.0,0.756
+P1_compliance,50,0.055,0.0,0.12,0.0,0.88,0.0,0.989,1.0,0.828

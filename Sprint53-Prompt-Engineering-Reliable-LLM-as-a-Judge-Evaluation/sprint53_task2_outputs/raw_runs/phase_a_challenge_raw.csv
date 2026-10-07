@@ -1,0 +1,988 @@
+dataset,phase,sample_id,prompt_id,run_id,temperature,seed,source_en,candidate_zh,gold_score,reference_zh,judge_score,parse_ok,strict_json_ok,feedback,raw_output,error_message,error_categories,error_severities,n_errors,has_major_error,has_critical_error,fully_translated,target_language_mandarin,simplified_chinese,english_leakage,pinyin_or_romanization,cantonese_or_non_mandarin,category,critical_failure,expected_max_score
+challenge,A,CH01_correct,P0_baseline,1,0.0,5300,Please close the window before you leave.,请在离开前关上窗户。,,,10.0,True,False,"{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning with proper grammar and natural phrasing.""}
+
+
+{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning with proper grammar and natural phrasing.""}","{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning with proper grammar and natural phrasing.""}
+</think>
+
+{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning with proper grammar and natural phrasing.""}",,[],[],0,False,False,,,,,,,correct,False,10
+challenge,A,CH01_correct,P1_compliance,1,0.0,5400,Please close the window before you leave.,请在离开前关上窗户。,,,10.0,True,False,"{""score"":10,""feedback"":""优秀翻译，准确传达了原意且符合中文表达习惯。"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+
+
+{""score"":10,""feedback"":""优秀翻译，准确传达了原意且符合中文表达习惯。"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}","{""score"":10,""feedback"":""优秀翻译，准确传达了原意且符合中文表达习惯。"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+</think>
+
+{""score"":10,""feedback"":""优秀翻译，准确传达了原意且符合中文表达习惯。"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}",,[],[],0,False,False,,,,,,,correct,False,10
+challenge,A,CH01_correct,P2_semantic,1,0.0,5500,Please close the window before you leave.,请在离开前关上窗户。,,,10.0,True,False,"{""score"":10,""feedback"":""Perfect translation with full semantic fidelity and natural Mandarin expression."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+
+
+{""score"":10,""feedback"":""Perfect translation with full semantic fidelity and natural Mandarin expression."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}","{""score"":10,""feedback"":""Perfect translation with full semantic fidelity and natural Mandarin expression."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+</think>
+
+{""score"":10,""feedback"":""Perfect translation with full semantic fidelity and natural Mandarin expression."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}",,[],[],0,False,False,,,,,,,correct,False,10
+challenge,A,CH01_correct,P3_error_first,1,0.0,5600,Please close the window before you leave.,请在离开前关上窗户。,,,10.0,True,True,Perfect translation with no errors detected.,"</think>
+
+{
+  ""score"": 10,
+  ""feedback"": ""Perfect translation with no errors detected."",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": []
+}",,[],[],0,False,False,True,True,True,False,False,False,correct,False,10
+challenge,A,CH01_correct,P4_combined,1,0.0,5700,Please close the window before you leave.,请在离开前关上窗户。,,,10.0,True,False,"{""score"":10,""feedback"":""完全正确且自然的翻译"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+
+
+{""score"":10,""feedback"":""完全正确且自然的翻译"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}","{""score"":10,""feedback"":""完全正确且自然的翻译"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+</think>
+
+{""score"":10,""feedback"":""完全正确且自然的翻译"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}",,[],[],0,False,False,,,,,,,correct,False,10
+challenge,A,CH02_valid_paraphrase,P0_baseline,1,0.0,6300,The meeting has been postponed until Friday.,会议改到周五举行。,,,10.0,True,False,"{""score"": 10, ""feedback"": ""Accurate, fluent, and faithful translation. The sentence structure and meaning are preserved perfectly.""}
+
+
+{""score"": 10, ""feedback"": ""Accurate, fluent, and faithful translation. The sentence structure and meaning are preserved perfectly.""}","{""score"": 10, ""feedback"": ""Accurate, fluent, and faithful translation. The sentence structure and meaning are preserved perfectly.""}
+</think>
+
+{""score"": 10, ""feedback"": ""Accurate, fluent, and faithful translation. The sentence structure and meaning are preserved perfectly.""}",,[],[],0,False,False,,,,,,,valid_paraphrase,False,10
+challenge,A,CH02_valid_paraphrase,P1_compliance,1,0.0,6400,The meeting has been postponed until Friday.,会议改到周五举行。,,,10.0,True,False,"{""score"":10,""feedback"":""Excellent translation."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+
+
+{""score"":10,""feedback"":""Excellent translation."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}","{""score"":10,""feedback"":""Excellent translation."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+</think>
+
+{""score"":10,""feedback"":""Excellent translation."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}",,[],[],0,False,False,,,,,,,valid_paraphrase,False,10
+challenge,A,CH02_valid_paraphrase,P2_semantic,1,0.0,6500,The meeting has been postponed until Friday.,会议改到周五举行。,,,10.0,True,True,The candidate translation fully preserves the meaning and is natural Mandarin.,"</think>
+
+{
+  ""score"": 10,
+  ""feedback"": ""The candidate translation fully preserves the meaning and is natural Mandarin."",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": []
+}",,[],[],0,False,False,True,True,True,False,False,False,valid_paraphrase,False,10
+challenge,A,CH02_valid_paraphrase,P3_error_first,1,0.0,6600,The meeting has been postponed until Friday.,会议改到周五举行。,,,8.0,True,True,The translation is mostly accurate but could be slightly more natural in Mandarin.,"</think>
+
+{
+  ""score"": 8,
+  ""feedback"": ""The translation is mostly accurate but could be slightly more natural in Mandarin."",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": [
+    {
+      ""category"": ""fluency"",
+      ""severity"": ""minor"",
+      ""description"": ""The phrase '改到周五举行' is slightly less natural than '推迟到周五举行' in standard Mandarin.""
+    }
+  ]
+}",,"[""fluency""]","[""minor""]",1,False,False,True,True,True,False,False,False,valid_paraphrase,False,10
+challenge,A,CH02_valid_paraphrase,P4_combined,1,0.0,6700,The meeting has been postponed until Friday.,会议改到周五举行。,,,9.0,True,True,Accurate and natural translation with minor fluency improvement possible,"</think>
+
+{
+  ""score"": 9,
+  ""feedback"": ""Accurate and natural translation with minor fluency improvement possible"",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": [
+    {
+      ""category"": ""fluency"",
+      ""severity"": ""minor"",
+      ""description"": ""Slightly more natural phrasing could be '会议推迟到周五举行' instead of '改到周五举行'""
+    }
+  ]
+}",,"[""fluency""]","[""minor""]",1,False,False,True,True,True,False,False,False,valid_paraphrase,False,10
+challenge,A,CH03_minor_fluency,P0_baseline,1,0.0,7300,I will call you when I arrive.,当我到达的时候，我会给你打电话。,,,10.0,True,False,"{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning with proper grammar and natural phrasing.""}
+
+
+{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning with proper grammar and natural phrasing.""}","{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning with proper grammar and natural phrasing.""}
+</think>
+
+{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning with proper grammar and natural phrasing.""}",,[],[],0,False,False,,,,,,,minor_fluency,False,8
+challenge,A,CH03_minor_fluency,P1_compliance,1,0.0,7400,I will call you when I arrive.,当我到达的时候，我会给你打电话。,,,10.0,True,False,"{""score"":10,""feedback"":""Excellent translation."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+
+
+{""score"":10,""feedback"":""Excellent translation."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}","{""score"":10,""feedback"":""Excellent translation."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+</think>
+
+{""score"":10,""feedback"":""Excellent translation."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}",,[],[],0,False,False,,,,,,,minor_fluency,False,8
+challenge,A,CH03_minor_fluency,P2_semantic,1,0.0,7500,I will call you when I arrive.,当我到达的时候，我会给你打电话。,,,10.0,True,True,The candidate perfectly preserves the meaning and naturalness of the original sentence.,"</think>
+
+{
+  ""score"": 10,
+  ""feedback"": ""The candidate perfectly preserves the meaning and naturalness of the original sentence."",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": []
+}",,[],[],0,False,False,True,True,True,False,False,False,minor_fluency,False,8
+challenge,A,CH03_minor_fluency,P3_error_first,1,0.0,7600,I will call you when I arrive.,当我到达的时候，我会给你打电话。,,,10.0,True,False,"{""score"":10,""feedback"":""Excellent translation with no errors detected."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+
+
+{""score"":10,""feedback"":""Excellent translation with no errors detected."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}","{""score"":10,""feedback"":""Excellent translation with no errors detected."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+</think>
+
+{""score"":10,""feedback"":""Excellent translation with no errors detected."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}",,[],[],0,False,False,,,,,,,minor_fluency,False,8
+challenge,A,CH03_minor_fluency,P4_combined,1,0.0,7700,I will call you when I arrive.,当我到达的时候，我会给你打电话。,,,10.0,True,False,"{""score"":10,""feedback"":""完全正确且自然的翻译"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+
+
+{""score"":10,""feedback"":""完全正确且自然的翻译"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}","{""score"":10,""feedback"":""完全正确且自然的翻译"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+</think>
+
+{""score"":10,""feedback"":""完全正确且自然的翻译"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}",,[],[],0,False,False,,,,,,,minor_fluency,False,8
+challenge,A,CH04_major_mistranslation,P0_baseline,1,0.0,8300,The train leaves at six in the morning.,火车晚上六点出发。,,,5.0,True,False,"{""score"": 5, ""feedback"": ""The translation is inaccurate. 'Six in the morning' should be '早上六点' instead of '晚上六点' (six in the evening).""}
+
+
+{""score"": 5, ""feedback"": ""The translation is inaccurate. 'Six in the morning' should be '早上六点' instead of '晚上六点' (six in the evening).""}","{""score"": 5, ""feedback"": ""The translation is inaccurate. 'Six in the morning' should be '早上六点' instead of '晚上六点' (six in the evening).""}
+</think>
+
+{""score"": 5, ""feedback"": ""The translation is inaccurate. 'Six in the morning' should be '早上六点' instead of '晚上六点' (six in the evening).""}",,[],[],0,False,False,,,,,,,mistranslation,True,4
+challenge,A,CH04_major_mistranslation,P1_compliance,1,0.0,8400,The train leaves at six in the morning.,火车晚上六点出发。,,,5.0,True,False,"{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""Incorrect time translation (six in the morning vs. six in the evening)""}]}
+
+
+{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""Incorrect time translation (six in the morning vs. six in the evening)""}]}","{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""Incorrect time translation (six in the morning vs. six in the evening)""}]}
+</think>
+
+{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""Incorrect time translation (six in the morning vs. six in the evening)""}]}",,[],[],0,False,False,,,,,,,mistranslation,True,4
+challenge,A,CH04_major_mistranslation,P2_semantic,1,0.0,8500,The train leaves at six in the morning.,火车晚上六点出发。,,,5.0,True,True,核心含义部分保留但存在明显时间错误,"</think>
+
+{
+  ""score"": 5,
+  ""feedback"": ""核心含义部分保留但存在明显时间错误"",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": [
+    {
+      ""category"": ""mistranslation"",
+      ""severity"": ""critical"",
+      ""description"": ""时间表达错误，将'morning'误译为'晚上'""
+    }
+  ]
+}",,"[""mistranslation""]","[""critical""]",1,False,True,True,True,True,False,False,False,mistranslation,True,4
+challenge,A,CH04_major_mistranslation,P3_error_first,1,0.0,8600,The train leaves at six in the morning.,火车晚上六点出发。,,,5.0,True,True,The translation contains a significant error in time specification,"</think>
+
+{
+  ""score"": 5,
+  ""feedback"": ""The translation contains a significant error in time specification"",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": [
+    {
+      ""category"": ""mistranslation"",
+      ""severity"": ""major"",
+      ""description"": ""Incorrect time specification - 'six in the morning' mistranslated as 'evening six o'clock'""
+    }
+  ]
+}",,"[""mistranslation""]","[""major""]",1,True,False,True,True,True,False,False,False,mistranslation,True,4
+challenge,A,CH04_major_mistranslation,P4_combined,1,0.0,8700,The train leaves at six in the morning.,火车晚上六点出发。,,,5.0,True,True,Partially correct with meaningful issues,"</think>
+
+{
+  ""score"": 5,
+  ""feedback"": ""Partially correct with meaningful issues"",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": [
+    {
+      ""category"": ""mistranslation"",
+      ""severity"": ""critical"",
+      ""description"": ""Incorrect time specification - 'six in the morning' mistranslated as 'evening six o'clock'""
+    },
+    {
+      ""category"": ""terminology"",
+      ""severity"": ""major"",
+      ""description"": ""Use of '出发' (depart) is less common than '发车' in train context""
+    }
+  ]
+}",,"[""mistranslation"", ""terminology""]","[""critical"", ""major""]",2,True,True,True,True,True,False,False,False,mistranslation,True,4
+challenge,A,CH05_omission,P0_baseline,1,0.0,9300,"She bought apples, oranges, and two bottles of water.",她买了苹果和橙子。,,,5.0,True,False,"{""score"": 5, ""feedback"": ""Missing 'two bottles of water' and 'and' in the translation.""}
+
+
+{""score"": 5, ""feedback"": ""Missing 'two bottles of water' and 'and' in the translation.""}","{""score"": 5, ""feedback"": ""Missing 'two bottles of water' and 'and' in the translation.""}
+</think>
+
+{""score"": 5, ""feedback"": ""Missing 'two bottles of water' and 'and' in the translation.""}",,[],[],0,False,False,,,,,,,omission,True,5
+challenge,A,CH05_omission,P1_compliance,1,0.0,9400,"She bought apples, oranges, and two bottles of water.",她买了苹果和橙子。,,,5.0,True,False,"{""score"":5,""feedback"":""部分信息遗漏"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""遗漏了'两瓶水'的翻译""}]}
+
+
+{""score"":5,""feedback"":""部分信息遗漏"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""遗漏了'两瓶水'的翻译""}]}","{""score"":5,""feedback"":""部分信息遗漏"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""遗漏了'两瓶水'的翻译""}]}
+</think>
+
+{""score"":5,""feedback"":""部分信息遗漏"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""遗漏了'两瓶水'的翻译""}]}",,[],[],0,False,False,,,,,,,omission,True,5
+challenge,A,CH05_omission,P2_semantic,1,0.0,9500,"She bought apples, oranges, and two bottles of water.",她买了苹果和橙子。,,,7.0,True,False,"{""score"":7,""feedback"":""核心意思保留，但缺少'两瓶水'的信息"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""遗漏了'两瓶水'的翻译""}]}
+
+
+{""score"":7,""feedback"":""核心意思保留，但缺少'两瓶水'的信息"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""遗漏了'两瓶水'的翻译""}]}","{""score"":7,""feedback"":""核心意思保留，但缺少'两瓶水'的信息"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""遗漏了'两瓶水'的翻译""}]}
+</think>
+
+{""score"":7,""feedback"":""核心意思保留，但缺少'两瓶水'的信息"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""遗漏了'两瓶水'的翻译""}]}",,[],[],0,False,False,,,,,,,omission,True,5
+challenge,A,CH05_omission,P3_error_first,1,0.0,9600,"She bought apples, oranges, and two bottles of water.",她买了苹果和橙子。,,,5.0,True,False,"{""score"":5,""feedback"":""The translation is incomplete and omits key information."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""Omits 'two bottles of water' from the original text""}]}
+
+
+{""score"":5,""feedback"":""The translation is incomplete and omits key information."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""Omits 'two bottles of water' from the original text""}]}","{""score"":5,""feedback"":""The translation is incomplete and omits key information."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""Omits 'two bottles of water' from the original text""}]}
+</think>
+
+{""score"":5,""feedback"":""The translation is incomplete and omits key information."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""Omits 'two bottles of water' from the original text""}]}",,[],[],0,False,False,,,,,,,omission,True,5
+challenge,A,CH05_omission,P4_combined,1,0.0,9700,"She bought apples, oranges, and two bottles of water.",她买了苹果和橙子。,,,6.0,True,False,"{""score"":6,""feedback"":""Partial translation with significant omissions"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""Missing 'two bottles of water'""},{""category"":""terminology"",""severity"":""minor"",""description"":""'bottles of water' translated as '水' without specifying quantity""},{""category"":""fluency"",""severity"":""minor"",""description"":""Sentence structure could be more natural""}]}
+
+
+{""score"":6,""feedback"":""Partial translation with significant omissions"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""Missing 'two bottles of water'""},{""category"":""terminology"",""severity"":""minor"",""description"":""'bottles of water' translated as '水' without specifying quantity""},{""category"":""fluency"",""severity"":""minor"",""description"":""Sentence structure could be more natural""}]}","{""score"":6,""feedback"":""Partial translation with significant omissions"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""Missing 'two bottles of water'""},{""category"":""terminology"",""severity"":""minor"",""description"":""'bottles of water' translated as '水' without specifying quantity""},{""category"":""fluency"",""severity"":""minor"",""description"":""Sentence structure could be more natural""}]}
+</think>
+
+{""score"":6,""feedback"":""Partial translation with significant omissions"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""major"",""description"":""Missing 'two bottles of water'""},{""category"":""terminology"",""severity"":""minor"",""description"":""'bottles of water' translated as '水' without specifying quantity""},{""category"":""fluency"",""severity"":""minor"",""description"":""Sentence structure could be more natural""}]}",,[],[],0,False,False,,,,,,,omission,True,5
+challenge,A,CH06_addition,P0_baseline,1,0.0,10300,He opened the door.,他生气地打开门，然后离开了房间。,,,5.0,True,False,"{""score"": 5, ""feedback"": ""The translation adds extra information (angry, left the room) not present in the original sentence.""}
+
+
+{""score"": 5, ""feedback"": ""The translation adds extra information (angry, left the room) not present in the original sentence.""}","{""score"": 5, ""feedback"": ""The translation adds extra information (angry, left the room) not present in the original sentence.""}
+</think>
+
+{""score"": 5, ""feedback"": ""The translation adds extra information (angry, left the room) not present in the original sentence.""}",,[],[],0,False,False,,,,,,,addition,True,5
+challenge,A,CH06_addition,P1_compliance,1,0.0,10400,He opened the door.,他生气地打开门，然后离开了房间。,,,5.0,True,False,"{""score"":5,""feedback"":""Translation includes additional information not present in the source text"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""major"",""description"":""Added 'angry' and 'left the room' which are not in the original sentence""}]}
+
+
+{""score"":5,""feedback"":""Translation includes additional information not present in the source text"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""major"",""description"":""Added 'angry' and 'left the room' which are not in the original sentence""}]}","{""score"":5,""feedback"":""Translation includes additional information not present in the source text"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""major"",""description"":""Added 'angry' and 'left the room' which are not in the original sentence""}]}
+</think>
+
+{""score"":5,""feedback"":""Translation includes additional information not present in the source text"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""major"",""description"":""Added 'angry' and 'left the room' which are not in the original sentence""}]}",,[],[],0,False,False,,,,,,,addition,True,5
+challenge,A,CH06_addition,P2_semantic,1,0.0,10500,He opened the door.,他生气地打开门，然后离开了房间。,,,5.0,True,False,"{""score"":5,""feedback"":""核心含义部分保留但存在明显问题"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""critical"",""description"":""添加了原文中没有的'生气地'和'然后离开了房间'信息""},{""category"":""omission"",""severity"":""critical"",""description"":""遗漏了'He opened the door'的核心动作，仅保留了'离开房间'的额外信息""}]}
+
+
+{""score"":5,""feedback"":""核心含义部分保留但存在明显问题"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""critical"",""description"":""添加了原文中没有的'生气地'和'然后离开了房间'信息""},{""category"":""omission"",""severity"":""critical"",""description"":""遗漏了'He opened the door'的核心动作，仅保留了'离开房间'的额外信息""}]}","{""score"":5,""feedback"":""核心含义部分保留但存在明显问题"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""critical"",""description"":""添加了原文中没有的'生气地'和'然后离开了房间'信息""},{""category"":""omission"",""severity"":""critical"",""description"":""遗漏了'He opened the door'的核心动作，仅保留了'离开房间'的额外信息""}]}
+</think>
+
+{""score"":5,""feedback"":""核心含义部分保留但存在明显问题"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""critical"",""description"":""添加了原文中没有的'生气地'和'然后离开了房间'信息""},{""category"":""omission"",""severity"":""critical"",""description"":""遗漏了'He opened the door'的核心动作，仅保留了'离开房间'的额外信息""}]}",,[],[],0,False,False,,,,,,,addition,True,5
+challenge,A,CH06_addition,P3_error_first,1,0.0,10600,He opened the door.,他生气地打开门，然后离开了房间。,,,5.0,True,True,The translation contains additional information not present in the source text,"</think>
+
+{
+  ""score"": 5,
+  ""feedback"": ""The translation contains additional information not present in the source text"",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": [
+    {
+      ""category"": ""addition"",
+      ""severity"": ""major"",
+      ""description"": ""Added '生气地' (angrily) and '然后离开了房间' (then left the room) which are not in the original text""
+    }
+  ]
+}",,"[""addition""]","[""major""]",1,True,False,True,True,True,False,False,False,addition,True,5
+challenge,A,CH06_addition,P4_combined,1,0.0,10700,He opened the door.,他生气地打开门，然后离开了房间。,,,5.0,True,False,"{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""critical"",""description"":""Added 'angry' and 'left the room' not in source""},{""category"":""omission"",""severity"":""major"",""description"":""Omitted 'He' as subject""},{""category"":""fluency"",""severity"":""minor"",""description"":""Unnatural phrasing '生气地' (angry) without context""}]}
+
+
+{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""critical"",""description"":""Added 'angry' and 'left the room' not in source""},{""category"":""omission"",""severity"":""major"",""description"":""Omitted 'He' as subject""},{""category"":""fluency"",""severity"":""minor"",""description"":""Unnatural phrasing '生气地' (angry) without context""}]}","{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""critical"",""description"":""Added 'angry' and 'left the room' not in source""},{""category"":""omission"",""severity"":""major"",""description"":""Omitted 'He' as subject""},{""category"":""fluency"",""severity"":""minor"",""description"":""Unnatural phrasing '生气地' (angry) without context""}]}
+</think>
+
+{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""critical"",""description"":""Added 'angry' and 'left the room' not in source""},{""category"":""omission"",""severity"":""major"",""description"":""Omitted 'He' as subject""},{""category"":""fluency"",""severity"":""minor"",""description"":""Unnatural phrasing '生气地' (angry) without context""}]}",,[],[],0,False,False,,,,,,,addition,True,5
+challenge,A,CH07_wrong_entity,P0_baseline,1,0.0,11300,Maria sent the report to David.,玛丽亚把报告发给了彼得。,,,5.0,True,False,"{""score"": 5, ""feedback"": ""The translation is inaccurate. 'David' was translated as '彼得' (Peter), which is a different name.""}
+
+
+{""score"": 5, ""feedback"": ""The translation is inaccurate. 'David' was translated as '彼得' (Peter), which is a different name.""}","{""score"": 5, ""feedback"": ""The translation is inaccurate. 'David' was translated as '彼得' (Peter), which is a different name.""}
+</think>
+
+{""score"": 5, ""feedback"": ""The translation is inaccurate. 'David' was translated as '彼得' (Peter), which is a different name.""}",,[],[],0,False,False,,,,,,,entity,True,4
+challenge,A,CH07_wrong_entity,P1_compliance,1,0.0,11400,Maria sent the report to David.,玛丽亚把报告发给了彼得。,,,5.0,True,False,"{""score"":5,""feedback"":""Partial translation with significant source leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Name 'David' mistranslated as '彼得' (Peter) instead of retaining original name""}]}
+
+
+{""score"":5,""feedback"":""Partial translation with significant source leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Name 'David' mistranslated as '彼得' (Peter) instead of retaining original name""}]}","{""score"":5,""feedback"":""Partial translation with significant source leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Name 'David' mistranslated as '彼得' (Peter) instead of retaining original name""}]}
+</think>
+
+{""score"":5,""feedback"":""Partial translation with significant source leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Name 'David' mistranslated as '彼得' (Peter) instead of retaining original name""}]}",,[],[],0,False,False,,,,,,,entity,True,4
+challenge,A,CH07_wrong_entity,P2_semantic,1,0.0,11500,Maria sent the report to David.,玛丽亚把报告发给了彼得。,,,5.0,True,False,"{""score"":5,""feedback"":""The core meaning is partially preserved but there are significant issues."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""The recipient's name 'David' is mistranslated as 'Peter'.""},{""category"":""terminology"",""severity"":""minor"",""description"":""'sent' is translated as '发给' which is slightly less precise than '发送'.""}]}
+
+
+{""score"":5,""feedback"":""The core meaning is partially preserved but there are significant issues."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""The recipient's name 'David' is mistranslated as 'Peter'.""},{""category"":""terminology"",""severity"":""minor"",""description"":""'sent' is translated as '发给' which is slightly less precise than '发送'.""}]}","{""score"":5,""feedback"":""The core meaning is partially preserved but there are significant issues."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""The recipient's name 'David' is mistranslated as 'Peter'.""},{""category"":""terminology"",""severity"":""minor"",""description"":""'sent' is translated as '发给' which is slightly less precise than '发送'.""}]}
+</think>
+
+{""score"":5,""feedback"":""The core meaning is partially preserved but there are significant issues."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""The recipient's name 'David' is mistranslated as 'Peter'.""},{""category"":""terminology"",""severity"":""minor"",""description"":""'sent' is translated as '发给' which is slightly less precise than '发送'.""}]}",,[],[],0,False,False,,,,,,,entity,True,4
+challenge,A,CH07_wrong_entity,P3_error_first,1,0.0,11600,Maria sent the report to David.,玛丽亚把报告发给了彼得。,,,5.0,True,False,"{""score"":5,""feedback"":""The translation contains a mistranslation and omission."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""major"",""description"":""'David' was mistranslated as '彼得' (Peter), which is not the original name.""},{""category"":""omission"",""severity"":""major"",""description"":""'to' was omitted in the translation, leading to ambiguity about the action.""}]}
+
+
+{""score"":5,""feedback"":""The translation contains a mistranslation and omission."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""major"",""description"":""'David' was mistranslated as '彼得' (Peter), which is not the original name.""},{""category"":""omission"",""severity"":""major"",""description"":""'to' was omitted in the translation, leading to ambiguity about the action.""}]}","{""score"":5,""feedback"":""The translation contains a mistranslation and omission."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""major"",""description"":""'David' was mistranslated as '彼得' (Peter), which is not the original name.""},{""category"":""omission"",""severity"":""major"",""description"":""'to' was omitted in the translation, leading to ambiguity about the action.""}]}
+</think>
+
+{""score"":5,""feedback"":""The translation contains a mistranslation and omission."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""major"",""description"":""'David' was mistranslated as '彼得' (Peter), which is not the original name.""},{""category"":""omission"",""severity"":""major"",""description"":""'to' was omitted in the translation, leading to ambiguity about the action.""}]}",,[],[],0,False,False,,,,,,,entity,True,4
+challenge,A,CH07_wrong_entity,P4_combined,1,0.0,11700,Maria sent the report to David.,玛丽亚把报告发给了彼得。,,,5.0,True,False,"{""score"":5,""feedback"":""Partial translation with significant errors"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":false,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""entity"",""severity"":""critical"",""description"":""Name 'David' mistranslated as '彼得' (Peter) instead of '大卫' (David)""}]}
+
+
+{""score"":5,""feedback"":""Partial translation with significant errors"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":false,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""entity"",""severity"":""critical"",""description"":""Name 'David' mistranslated as '彼得' (Peter) instead of '大卫' (David)""}]}","{""score"":5,""feedback"":""Partial translation with significant errors"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":false,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""entity"",""severity"":""critical"",""description"":""Name 'David' mistranslated as '彼得' (Peter) instead of '大卫' (David)""}]}
+</think>
+
+{""score"":5,""feedback"":""Partial translation with significant errors"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":false,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""entity"",""severity"":""critical"",""description"":""Name 'David' mistranslated as '彼得' (Peter) instead of '大卫' (David)""}]}",,[],[],0,False,False,,,,,,,entity,True,4
+challenge,A,CH08_wrong_number,P0_baseline,1,0.0,12300,The package contains 15 tablets.,这个包装里有五片药片。,,,5.0,True,False,"{""score"": 5, ""feedback"": ""The translation is inaccurate. The English says '15 tablets' but the Mandarin says 'five tablets'.""}
+
+
+{""score"": 5, ""feedback"": ""The translation is inaccurate. The English says '15 tablets' but the Mandarin says 'five tablets'.""}","{""score"": 5, ""feedback"": ""The translation is inaccurate. The English says '15 tablets' but the Mandarin says 'five tablets'.""}
+</think>
+
+{""score"": 5, ""feedback"": ""The translation is inaccurate. The English says '15 tablets' but the Mandarin says 'five tablets'.""}",,[],[],0,False,False,,,,,,,number,True,4
+challenge,A,CH08_wrong_number,P1_compliance,1,0.0,12400,The package contains 15 tablets.,这个包装里有五片药片。,,,5.0,True,False,"{""score"":5,""feedback"":""部分信息未准确翻译"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""number"",""severity"":""critical"",""description"":""数字'15'被错误翻译为'五'""}]}
+
+
+{""score"":5,""feedback"":""部分信息未准确翻译"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""number"",""severity"":""critical"",""description"":""数字'15'被错误翻译为'五'""}]}","{""score"":5,""feedback"":""部分信息未准确翻译"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""number"",""severity"":""critical"",""description"":""数字'15'被错误翻译为'五'""}]}
+</think>
+
+{""score"":5,""feedback"":""部分信息未准确翻译"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""number"",""severity"":""critical"",""description"":""数字'15'被错误翻译为'五'""}]}",,[],[],0,False,False,,,,,,,number,True,4
+challenge,A,CH08_wrong_number,P2_semantic,1,0.0,12500,The package contains 15 tablets.,这个包装里有五片药片。,,,5.0,True,False,"{""score"":5,""feedback"":""核心含义部分保留但存在明显错误"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""将'15 tablets'错误翻译为'五片'（5片）""}]}
+
+
+{""score"":5,""feedback"":""核心含义部分保留但存在明显错误"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""将'15 tablets'错误翻译为'五片'（5片）""}]}","{""score"":5,""feedback"":""核心含义部分保留但存在明显错误"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""将'15 tablets'错误翻译为'五片'（5片）""}]}
+</think>
+
+{""score"":5,""feedback"":""核心含义部分保留但存在明显错误"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""将'15 tablets'错误翻译为'五片'（5片）""}]}",,[],[],0,False,False,,,,,,,number,True,4
+challenge,A,CH08_wrong_number,P3_error_first,1,0.0,12600,The package contains 15 tablets.,这个包装里有五片药片。,,,6.0,True,False,"{""score"": 6, ""feedback"": ""存在数字翻译错误和术语不准确的问题"", ""compliance"": {""fully_translated"": true, ""target_language_mandarin"": true, ""simplified_chinese"": true, ""english_leakage"": false, ""pinyin_or_romanization"": false, ""cantonese_or_non_mandarin"": false}, ""errors"": [{""category"":""number"",""severity"":""major"",""description"":""英文中的'15'被错误翻译为'五'（5）""},{""category"":""terminology"",""severity"":""major"",""description"":""使用'药片'而非更准确的'药片'（注：此处'药片'和'药片'在中文中是同一词）""}]}
+
+
+
+{""score"": 6, ""feedback"": ""存在数字翻译错误和术语不准确的问题"", ""compliance"": {""fully_translated"": true, ""target_language_mandarin"": true, ""simplified_chinese"": true, ""english_leakage"": false, ""pinyin_or_romanization"": false, ""cantonese_or_non_mandarin"": false}, ""errors"": [{""category"":""number"",""severity"":""major"",""description"":""英文中的'15'被错误翻译为'五'（5）""},{""category"":""terminology"",""severity"":""major"",""description"":""使用'药片'而非更准确的'药片'（注：此处'药片'和'药片'在中文中是同一词）""}]}","{""score"": 6, ""feedback"": ""存在数字翻译错误和术语不准确的问题"", ""compliance"": {""fully_translated"": true, ""target_language_mandarin"": true, ""simplified_chinese"": true, ""english_leakage"": false, ""pinyin_or_romanization"": false, ""cantonese_or_non_mandarin"": false}, ""errors"": [{""category"":""number"",""severity"":""major"",""description"":""英文中的'15'被错误翻译为'五'（5）""},{""category"":""terminology"",""severity"":""major"",""description"":""使用'药片'而非更准确的'药片'（注：此处'药片'和'药片'在中文中是同一词）""}]}
+
+</think>
+
+{""score"": 6, ""feedback"": ""存在数字翻译错误和术语不准确的问题"", ""compliance"": {""fully_translated"": true, ""target_language_mandarin"": true, ""simplified_chinese"": true, ""english_leakage"": false, ""pinyin_or_romanization"": false, ""cantonese_or_non_mandarin"": false}, ""errors"": [{""category"":""number"",""severity"":""major"",""description"":""英文中的'15'被错误翻译为'五'（5）""},{""category"":""terminology"",""severity"":""major"",""description"":""使用'药片'而非更准确的'药片'（注：此处'药片'和'药片'在中文中是同一词）""}]}",,[],[],0,False,False,,,,,,,number,True,4
+challenge,A,CH08_wrong_number,P4_combined,1,0.0,12700,The package contains 15 tablets.,这个包装里有五片药片。,,,5.0,True,False,"{""score"":5,""feedback"":""Partial translation with significant errors"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""number"",""severity"":""critical"",""description"":""Number '15' mistranslated as '五' (5) instead of '十五' (15)""}]}
+
+
+{""score"":5,""feedback"":""Partial translation with significant errors"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""number"",""severity"":""critical"",""description"":""Number '15' mistranslated as '五' (5) instead of '十五' (15)""}]}","{""score"":5,""feedback"":""Partial translation with significant errors"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""number"",""severity"":""critical"",""description"":""Number '15' mistranslated as '五' (5) instead of '十五' (15)""}]}
+</think>
+
+{""score"":5,""feedback"":""Partial translation with significant errors"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""number"",""severity"":""critical"",""description"":""Number '15' mistranslated as '五' (5) instead of '十五' (15)""}]}",,[],[],0,False,False,,,,,,,number,True,4
+challenge,A,CH09_negation,P0_baseline,1,0.0,13300,Do not restart the computer.,请重新启动电脑。,,,1.0,True,False,"{""score"": 1, ""feedback"": ""The translation is completely incorrect. The source says 'Do not restart the computer,' but the translation says 'Please restart the computer.' The meaning is opposite.""}
+
+
+{""score"": 1, ""feedback"": ""The translation is completely incorrect. The source says 'Do not restart the computer,' but the translation says 'Please restart the computer.' The meaning is opposite.""}","{""score"": 1, ""feedback"": ""The translation is completely incorrect. The source says 'Do not restart the computer,' but the translation says 'Please restart the computer.' The meaning is opposite.""}
+</think>
+
+{""score"": 1, ""feedback"": ""The translation is completely incorrect. The source says 'Do not restart the computer,' but the translation says 'Please restart the computer.' The meaning is opposite.""}",,[],[],0,False,False,,,,,,,negation,True,3
+challenge,A,CH09_negation,P1_compliance,1,0.0,13400,Do not restart the computer.,请重新启动电脑。,,,2.0,True,False,"{""score"":2,""feedback"":""严重错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接复制英文句子""}]}
+
+
+{""score"":2,""feedback"":""严重错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接复制英文句子""}]}","{""score"":2,""feedback"":""严重错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接复制英文句子""}]}
+</think>
+
+{""score"":2,""feedback"":""严重错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接复制英文句子""}]}",,[],[],0,False,False,,,,,,,negation,True,3
+challenge,A,CH09_negation,P2_semantic,1,0.0,13500,Do not restart the computer.,请重新启动电脑。,,,3.0,True,False,"{""score"":3,""feedback"":""严重误译"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""'请重新启动电脑' 误译为 '请重新启动电脑'，与原句 'Do not restart the computer' 意思相反""}]}
+
+
+{""score"":3,""feedback"":""严重误译"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""'请重新启动电脑' 误译为 '请重新启动电脑'，与原句 'Do not restart the computer' 意思相反""}]}","{""score"":3,""feedback"":""严重误译"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""'请重新启动电脑' 误译为 '请重新启动电脑'，与原句 'Do not restart the computer' 意思相反""}]}
+</think>
+
+{""score"":3,""feedback"":""严重误译"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""'请重新启动电脑' 误译为 '请重新启动电脑'，与原句 'Do not restart the computer' 意思相反""}]}",,[],[],0,False,False,,,,,,,negation,True,3
+challenge,A,CH09_negation,P3_error_first,1,0.0,13600,Do not restart the computer.,请重新启动电脑。,,,1.0,True,False,"{""score"":1,""feedback"":""严重错误：翻译错误导致原意完全相反"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""'Do not restart' 被错误翻译为 '请重新启动'，与原意完全相反""}]}
+
+
+{""score"":1,""feedback"":""严重错误：翻译错误导致原意完全相反"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""'Do not restart' 被错误翻译为 '请重新启动'，与原意完全相反""}]}","{""score"":1,""feedback"":""严重错误：翻译错误导致原意完全相反"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""'Do not restart' 被错误翻译为 '请重新启动'，与原意完全相反""}]}
+</think>
+
+{""score"":1,""feedback"":""严重错误：翻译错误导致原意完全相反"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""'Do not restart' 被错误翻译为 '请重新启动'，与原意完全相反""}]}",,[],[],0,False,False,,,,,,,negation,True,3
+challenge,A,CH09_negation,P4_combined,1,0.0,13700,Do not restart the computer.,请重新启动电脑。,,,2.0,True,True,严重语义错误,"</think>
+
+{
+  ""score"": 2,
+  ""feedback"": ""严重语义错误"",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": [
+    {
+      ""category"": ""negation"",
+      ""severity"": ""critical"",
+      ""description"": ""错误翻译否定词，原句为否定指令但译文使用肯定结构""
+    },
+    {
+      ""category"": ""terminology"",
+      ""severity"": ""critical"",
+      ""description"": ""使用'重新启动'错误翻译'restart'，应译为'重启'或'重新启动'需根据上下文""
+    }
+  ]
+}",,"[""negation"", ""terminology""]","[""critical"", ""critical""]",2,False,True,True,True,True,False,False,False,negation,True,3
+challenge,A,CH10_untranslated_7_francs,P0_baseline,1,0.0,14300,7 francs.,7 francs.,,,10.0,True,False,"{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning without any changes.""}
+
+
+{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning without any changes.""}","{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning without any changes.""}
+</think>
+
+{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning without any changes.""}",,[],[],0,False,False,,,,,,,untranslated,True,2
+challenge,A,CH10_untranslated_7_francs,P1_compliance,1,0.0,14400,7 francs.,7 francs.,,,2.0,True,False,"{""score"":2,""feedback"":""The translation contains English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation retains the original English term 'francs' instead of translating it to the equivalent Chinese term""}]}
+
+
+{""score"":2,""feedback"":""The translation contains English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation retains the original English term 'francs' instead of translating it to the equivalent Chinese term""}]}","{""score"":2,""feedback"":""The translation contains English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation retains the original English term 'francs' instead of translating it to the equivalent Chinese term""}]}
+</think>
+
+{""score"":2,""feedback"":""The translation contains English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation retains the original English term 'francs' instead of translating it to the equivalent Chinese term""}]}",,[],[],0,False,False,,,,,,,untranslated,True,2
+challenge,A,CH10_untranslated_7_francs,P2_semantic,1,0.0,14500,7 francs.,7 francs.,,,5.0,True,False,"{""score"":5,""feedback"":""The candidate partially preserves the meaning but has notable issues."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""critical"",""description"":""Omission of translation for 'francs'""},{""category"":""source_leakage"",""severity"":""critical"",""description"":""Retention of English term 'francs'""}]}
+
+
+{""score"":5,""feedback"":""The candidate partially preserves the meaning but has notable issues."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""critical"",""description"":""Omission of translation for 'francs'""},{""category"":""source_leakage"",""severity"":""critical"",""description"":""Retention of English term 'francs'""}]}","{""score"":5,""feedback"":""The candidate partially preserves the meaning but has notable issues."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""critical"",""description"":""Omission of translation for 'francs'""},{""category"":""source_leakage"",""severity"":""critical"",""description"":""Retention of English term 'francs'""}]}
+</think>
+
+{""score"":5,""feedback"":""The candidate partially preserves the meaning but has notable issues."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""omission"",""severity"":""critical"",""description"":""Omission of translation for 'francs'""},{""category"":""source_leakage"",""severity"":""critical"",""description"":""Retention of English term 'francs'""}]}",,[],[],0,False,False,,,,,,,untranslated,True,2
+challenge,A,CH10_untranslated_7_francs,P3_error_first,1,0.0,14600,7 francs.,7 francs.,,,1.0,True,False,"{""score"":1,""feedback"":""The translation is not in Mandarin. It is still in English."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation is not in Mandarin; it is still in English.""}]}
+
+
+{""score"":1,""feedback"":""The translation is not in Mandarin. It is still in English."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation is not in Mandarin; it is still in English.""}]}","{""score"":1,""feedback"":""The translation is not in Mandarin. It is still in English."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation is not in Mandarin; it is still in English.""}]}
+</think>
+
+{""score"":1,""feedback"":""The translation is not in Mandarin. It is still in English."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation is not in Mandarin; it is still in English.""}]}",,[],[],0,False,False,,,,,,,untranslated,True,2
+challenge,A,CH10_untranslated_7_francs,P4_combined,1,0.0,14700,7 francs.,7 francs.,,,2.0,True,False,"{""score"":2,""feedback"":""Major compliance and semantic issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""English currency unit retained without translation""}]}
+
+
+{""score"":2,""feedback"":""Major compliance and semantic issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""English currency unit retained without translation""}]}","{""score"":2,""feedback"":""Major compliance and semantic issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""English currency unit retained without translation""}]}
+</think>
+
+{""score"":2,""feedback"":""Major compliance and semantic issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""English currency unit retained without translation""}]}",,[],[],0,False,False,,,,,,,untranslated,True,2
+challenge,A,CH11_untranslated_sentence,P0_baseline,1,0.0,15300,The doctor will see you tomorrow.,The doctor will see you tomorrow.,,,10.0,True,False,"{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning without any errors.""}
+
+
+{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning without any errors.""}","{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning without any errors.""}
+</think>
+
+{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning without any errors.""}",,[],[],0,False,False,,,,,,,untranslated,True,2
+challenge,A,CH11_untranslated_sentence,P1_compliance,1,0.0,15400,The doctor will see you tomorrow.,The doctor will see you tomorrow.,,,2.0,True,False,"{""score"":2,""feedback"":""The translation contains English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The entire sentence is in English""}]}
+
+
+{""score"":2,""feedback"":""The translation contains English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The entire sentence is in English""}]}","{""score"":2,""feedback"":""The translation contains English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The entire sentence is in English""}]}
+</think>
+
+{""score"":2,""feedback"":""The translation contains English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The entire sentence is in English""}]}",,[],[],0,False,False,,,,,,,untranslated,True,2
+challenge,A,CH11_untranslated_sentence,P2_semantic,1,0.0,15500,The doctor will see you tomorrow.,The doctor will see you tomorrow.,,,2.0,True,True,The candidate contains English leakage and does not fully translate the source text.,"</think>
+
+{
+  ""score"": 2,
+  ""feedback"": ""The candidate contains English leakage and does not fully translate the source text."",
+  ""compliance"": {
+    ""fully_translated"": false,
+    ""target_language_mandarin"": false,
+    ""simplified_chinese"": false,
+    ""english_leakage"": true,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": [
+    {
+      ""category"": ""source_leakage"",
+      ""severity"": ""critical"",
+      ""description"": ""English text remains in the translation""
+    },
+    {
+      ""category"": ""omission"",
+      ""severity"": ""critical"",
+      ""description"": ""The source text is not translated at all""
+    }
+  ]
+}",,"[""source_leakage"", ""omission""]","[""critical"", ""critical""]",2,False,True,False,False,False,True,False,False,untranslated,True,2
+challenge,A,CH11_untranslated_sentence,P3_error_first,1,0.0,15600,The doctor will see you tomorrow.,The doctor will see you tomorrow.,,,1.0,True,False,"{""score"":1,""feedback"":""The candidate translation is identical to the source text, which indicates no actual translation was performed. This is a critical error as the translation is not in Mandarin at all."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation is identical to the source text, indicating no translation was done""}]}
+
+
+{""score"":1,""feedback"":""The candidate translation is identical to the source text, which indicates no actual translation was performed. This is a critical error as the translation is not in Mandarin at all."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation is identical to the source text, indicating no translation was done""}]}","{""score"":1,""feedback"":""The candidate translation is identical to the source text, which indicates no actual translation was performed. This is a critical error as the translation is not in Mandarin at all."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation is identical to the source text, indicating no translation was done""}]}
+</think>
+
+{""score"":1,""feedback"":""The candidate translation is identical to the source text, which indicates no actual translation was performed. This is a critical error as the translation is not in Mandarin at all."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation is identical to the source text, indicating no translation was done""}]}",,[],[],0,False,False,,,,,,,untranslated,True,2
+challenge,A,CH11_untranslated_sentence,P4_combined,1,0.0,15700,The doctor will see you tomorrow.,The doctor will see you tomorrow.,,,2.0,True,False,"{""score"":2,""feedback"":""The candidate translation is not fully translated and contains English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The entire English sentence is retained without translation""},{""category"":""language"",""severity"":""critical"",""description"":""The translation is in English instead of Mandarin""}]}
+
+
+{""score"":2,""feedback"":""The candidate translation is not fully translated and contains English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The entire English sentence is retained without translation""},{""category"":""language"",""severity"":""critical"",""description"":""The translation is in English instead of Mandarin""}]}","{""score"":2,""feedback"":""The candidate translation is not fully translated and contains English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The entire English sentence is retained without translation""},{""category"":""language"",""severity"":""critical"",""description"":""The translation is in English instead of Mandarin""}]}
+</think>
+
+{""score"":2,""feedback"":""The candidate translation is not fully translated and contains English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The entire English sentence is retained without translation""},{""category"":""language"",""severity"":""critical"",""description"":""The translation is in English instead of Mandarin""}]}",,[],[],0,False,False,,,,,,,untranslated,True,2
+challenge,A,CH12_english_leakage,P0_baseline,1,0.0,16300,Please upload the final report today.,请今天 upload 最终报告。,,,5.0,True,False,"{""score"": 5, ""feedback"": ""Translation is grammatically incorrect and lacks natural fluency. The word 'upload' should not be directly used in Chinese and the sentence structure is awkward.""}
+
+
+{""score"": 5, ""feedback"": ""Translation is grammatically incorrect and lacks natural fluency. The word 'upload' should not be directly used in Chinese and the sentence structure is awkward.""}","{""score"": 5, ""feedback"": ""Translation is grammatically incorrect and lacks natural fluency. The word 'upload' should not be directly used in Chinese and the sentence structure is awkward.""}
+</think>
+
+{""score"": 5, ""feedback"": ""Translation is grammatically incorrect and lacks natural fluency. The word 'upload' should not be directly used in Chinese and the sentence structure is awkward.""}",,[],[],0,False,False,,,,,,,source_leakage,True,4
+challenge,A,CH12_english_leakage,P1_compliance,1,0.0,16400,Please upload the final report today.,请今天 upload 最终报告。,,,4.0,True,False,"{""score"":4,""feedback"":""Partial translation with English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The word 'upload' is retained in English""}]}
+
+
+{""score"":4,""feedback"":""Partial translation with English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The word 'upload' is retained in English""}]}}","{""score"":4,""feedback"":""Partial translation with English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The word 'upload' is retained in English""}]}
+</think>
+
+{""score"":4,""feedback"":""Partial translation with English leakage"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The word 'upload' is retained in English""}]}}",,[],[],0,False,False,,,,,,,source_leakage,True,4
+challenge,A,CH12_english_leakage,P2_semantic,1,0.0,16500,Please upload the final report today.,请今天 upload 最终报告。,,,4.0,True,False,"{""score"":4,""feedback"":""严重语义问题"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""保留英文动词 'upload'""}]}
+
+
+{""score"":4,""feedback"":""严重语义问题"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""保留英文动词 'upload'""}]}","{""score"":4,""feedback"":""严重语义问题"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""保留英文动词 'upload'""}]}
+</think>
+
+{""score"":4,""feedback"":""严重语义问题"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""保留英文动词 'upload'""}]}",,[],[],0,False,False,,,,,,,source_leakage,True,4
+challenge,A,CH12_english_leakage,P3_error_first,1,0.0,16600,Please upload the final report today.,请今天 upload 最终报告。,,,5.0,True,False,"{""score"":5,""feedback"":""The translation contains a direct English term 'upload' which should be translated into Chinese."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""'upload' is directly used in the translation""}]}
+
+
+{""score"":5,""feedback"":""The translation contains a direct English term 'upload' which should be translated into Chinese."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""'upload' is directly used in the translation""}]}","{""score"":5,""feedback"":""The translation contains a direct English term 'upload' which should be translated into Chinese."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""'upload' is directly used in the translation""}]}
+</think>
+
+{""score"":5,""feedback"":""The translation contains a direct English term 'upload' which should be translated into Chinese."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""'upload' is directly used in the translation""}]}",,[],[],0,False,False,,,,,,,source_leakage,True,4
+challenge,A,CH12_english_leakage,P4_combined,1,0.0,16700,Please upload the final report today.,请今天 upload 最终报告。,,,2.0,True,False,"{""score"":2,""feedback"":""严重违规且语义错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接使用英文词汇 'upload' 未翻译为中文""},{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接使用英文词汇 'final' 未翻译为中文""},{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接使用英文词汇 'report' 未翻译为中文""}]}
+
+
+{""score"":2,""feedback"":""严重违规且语义错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接使用英文词汇 'upload' 未翻译为中文""},{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接使用英文词汇 'final' 未翻译为中文""},{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接使用英文词汇 'report' 未翻译为中文""}]}","{""score"":2,""feedback"":""严重违规且语义错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接使用英文词汇 'upload' 未翻译为中文""},{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接使用英文词汇 'final' 未翻译为中文""},{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接使用英文词汇 'report' 未翻译为中文""}]}
+</think>
+
+{""score"":2,""feedback"":""严重违规且语义错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接使用英文词汇 'upload' 未翻译为中文""},{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接使用英文词汇 'final' 未翻译为中文""},{""category"":""source_leakage"",""severity"":""critical"",""description"":""直接使用英文词汇 'report' 未翻译为中文""}]}",,[],[],0,False,False,,,,,,,source_leakage,True,4
+challenge,A,CH13_traditional,P0_baseline,1,0.0,17300,The weather is very good today.,今天天氣非常好。,,,10.0,True,False,"{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning with proper grammar and vocabulary.""}
+
+
+{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning with proper grammar and vocabulary.""}","{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning with proper grammar and vocabulary.""}
+</think>
+
+{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning with proper grammar and vocabulary.""}",,[],[],0,False,False,,,,,,,traditional_script,True,4
+challenge,A,CH13_traditional,P1_compliance,1,0.0,17400,The weather is very good today.,今天天氣非常好。,,,10.0,True,False,"{""score"":10,""feedback"":""Excellent translation"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+
+
+{""score"":10,""feedback"":""Excellent translation"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}","{""score"":10,""feedback"":""Excellent translation"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+</think>
+
+{""score"":10,""feedback"":""Excellent translation"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}",,[],[],0,False,False,,,,,,,traditional_script,True,4
+challenge,A,CH13_traditional,P2_semantic,1,0.0,17500,The weather is very good today.,今天天氣非常好。,,,10.0,True,True,The candidate perfectly preserves the meaning and translates naturally into Mandarin.,"</think>
+
+{
+  ""score"": 10,
+  ""feedback"": ""The candidate perfectly preserves the meaning and translates naturally into Mandarin."",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": []
+}",,[],[],0,False,False,True,True,True,False,False,False,traditional_script,True,4
+challenge,A,CH13_traditional,P3_error_first,1,0.0,17600,The weather is very good today.,今天天氣非常好。,,,10.0,True,True,Perfect translation with no errors detected.,"</think>
+
+{
+  ""score"": 10,
+  ""feedback"": ""Perfect translation with no errors detected."",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": []
+}",,[],[],0,False,False,True,True,True,False,False,False,traditional_script,True,4
+challenge,A,CH13_traditional,P4_combined,1,0.0,17700,The weather is very good today.,今天天氣非常好。,,,10.0,True,False,"{""score"":10,""feedback"":""Perfect translation"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+
+
+{""score"":10,""feedback"":""Perfect translation"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}","{""score"":10,""feedback"":""Perfect translation"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+</think>
+
+{""score"":10,""feedback"":""Perfect translation"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}",,[],[],0,False,False,,,,,,,traditional_script,True,4
+challenge,A,CH14_mixed_script,P0_baseline,1,0.0,18300,Please confirm the information.,请確認这些信息。,,,10.0,True,False,"{""score"": 10, ""feedback"": ""Accurate, fluent, and faithful translation.""}
+
+
+{""score"": 10, ""feedback"": ""Accurate, fluent, and faithful translation.""}","{""score"": 10, ""feedback"": ""Accurate, fluent, and faithful translation.""}
+</think>
+
+{""score"": 10, ""feedback"": ""Accurate, fluent, and faithful translation.""}",,[],[],0,False,False,,,,,,,mixed_script,True,5
+challenge,A,CH14_mixed_script,P1_compliance,1,0.0,18400,Please confirm the information.,请確認这些信息。,,,7.0,True,False,"{""score"":7,""feedback"":""The translation is mostly accurate but has some issues with compliance and fluency."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":false,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""language"",""severity"":""critical"",""description"":""The translation uses Traditional Chinese (請確認這些信息) instead of Simplified Chinese.""}]}
+
+
+{""score"":7,""feedback"":""The translation is mostly accurate but has some issues with compliance and fluency."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":false,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""language"",""severity"":""critical"",""description"":""The translation uses Traditional Chinese (請確認這些信息) instead of Simplified Chinese.""}]}","{""score"":7,""feedback"":""The translation is mostly accurate but has some issues with compliance and fluency."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":false,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""language"",""severity"":""critical"",""description"":""The translation uses Traditional Chinese (請確認這些信息) instead of Simplified Chinese.""}]}
+</think>
+
+{""score"":7,""feedback"":""The translation is mostly accurate but has some issues with compliance and fluency."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":false,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""language"",""severity"":""critical"",""description"":""The translation uses Traditional Chinese (請確認這些信息) instead of Simplified Chinese.""}]}",,[],[],0,False,False,,,,,,,mixed_script,True,5
+challenge,A,CH14_mixed_script,P2_semantic,1,0.0,18500,Please confirm the information.,请確認这些信息。,,,10.0,True,False,"{""score"":10,""feedback"":""Perfect translation with full semantic fidelity and natural Mandarin expression."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+
+
+{""score"":10,""feedback"":""Perfect translation with full semantic fidelity and natural Mandarin expression."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}","{""score"":10,""feedback"":""Perfect translation with full semantic fidelity and natural Mandarin expression."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}
+</think>
+
+{""score"":10,""feedback"":""Perfect translation with full semantic fidelity and natural Mandarin expression."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[]}}",,[],[],0,False,False,,,,,,,mixed_script,True,5
+challenge,A,CH14_mixed_script,P3_error_first,1,0.0,18600,Please confirm the information.,请確認这些信息。,,,8.0,True,False,"{""score"":8,""feedback"":""The translation is mostly accurate but has a minor issue with the use of '这些' which implies specificity not present in the original."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""minor"",""description"":""'这些' (these) is added, implying specific information, while the original is general""}]}
+
+
+{""score"":8,""feedback"":""The translation is mostly accurate but has a minor issue with the use of '这些' which implies specificity not present in the original."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""minor"",""description"":""'这些' (these) is added, implying specific information, while the original is general""}]}","{""score"":8,""feedback"":""The translation is mostly accurate but has a minor issue with the use of '这些' which implies specificity not present in the original."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""minor"",""description"":""'这些' (these) is added, implying specific information, while the original is general""}]}
+</think>
+
+{""score"":8,""feedback"":""The translation is mostly accurate but has a minor issue with the use of '这些' which implies specificity not present in the original."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""addition"",""severity"":""minor"",""description"":""'这些' (these) is added, implying specific information, while the original is general""}]}",,[],[],0,False,False,,,,,,,mixed_script,True,5
+challenge,A,CH14_mixed_script,P4_combined,1,0.0,18700,Please confirm the information.,请確認这些信息。,,,6.0,True,True,Partially correct with meaningful issues,"</think>
+
+{
+  ""score"": 6,
+  ""feedback"": ""Partially correct with meaningful issues"",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": false,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": true
+  },
+  ""errors"": [
+    {
+      ""category"": ""script"",
+      ""severity"": ""critical"",
+      ""description"": ""Uses Traditional Chinese characters instead of Simplified Chinese""
+    },
+    {
+      ""category"": ""terminology"",
+      ""severity"": ""major"",
+      ""description"": ""Uses '確認' (Traditional Chinese character) instead of '确认' (Simplified Chinese character)""
+    }
+  ]
+}",,"[""script"", ""terminology""]","[""critical"", ""major""]",2,True,True,True,True,False,False,False,True,mixed_script,True,5
+challenge,A,CH15_cantonese,P0_baseline,1,0.0,19300,What are you doing?,你做緊乜嘢？,,,5.0,True,False,"{""score"": 5, ""feedback"": ""The translation is informal and uses colloquial language, which may not be suitable for all contexts. The phrase '做緊乜嘢' is a casual way of asking 'What are you doing?' in Cantonese, but the translation lacks standard Mandarin equivalents.""}
+
+
+{""score"": 5, ""feedback"": ""The translation is informal and uses colloquial language, which may not be suitable for all contexts. The phrase '做緊乜嘢' is a casual way of asking 'What are you doing?' in Cantonese, but the translation lacks standard Mandarin equivalents.""}","{""score"": 5, ""feedback"": ""The translation is informal and uses colloquial language, which may not be suitable for all contexts. The phrase '做緊乜嘢' is a casual way of asking 'What are you doing?' in Cantonese, but the translation lacks standard Mandarin equivalents.""}
+</think>
+
+{""score"": 5, ""feedback"": ""The translation is informal and uses colloquial language, which may not be suitable for all contexts. The phrase '做緊乜嘢' is a casual way of asking 'What are you doing?' in Cantonese, but the translation lacks standard Mandarin equivalents.""}",,[],[],0,False,False,,,,,,,cantonese,True,3
+challenge,A,CH15_cantonese,P1_compliance,1,0.0,19400,What are you doing?,你做緊乜嘢？,,,2.0,True,False,"{""score"":2,""feedback"":""严重违反翻译要求"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""原文未被翻译，直接复制了英文问题""}]}
+
+
+{""score"":2,""feedback"":""严重违反翻译要求"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""原文未被翻译，直接复制了英文问题""}]}","{""score"":2,""feedback"":""严重违反翻译要求"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""原文未被翻译，直接复制了英文问题""}]}
+</think>
+
+{""score"":2,""feedback"":""严重违反翻译要求"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""原文未被翻译，直接复制了英文问题""}]}",,[],[],0,False,False,,,,,,,cantonese,True,3
+challenge,A,CH15_cantonese,P2_semantic,1,0.0,19500,What are you doing?,你做緊乜嘢？,,,5.0,True,False,"{""score"":5,""feedback"":""The candidate partially preserves the meaning but has significant issues with translation accuracy and language compliance."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation contains English words like '乜嘢' which is a mix of English and Chinese""},{""category"":""pinyin_or_romanization"",""severity"":""critical"",""description"":""The character '嘢' is a romanized form and not standard Mandarin script""},{""category"":""cantonese_or_non_mandarin"",""severity"":""critical"",""description"":""The translation uses Cantonese ('乜嘢') instead of Mandarin Chinese""},{""category"":""omission"",""severity"":""major"",""description"":""The meaning of the original question is partially omitted or misrepresented""}]}
+
+
+
+{""score"":5,""feedback"":""The candidate partially preserves the meaning but has significant issues with translation accuracy and language compliance."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation contains English words like '乜嘢' which is a mix of English and Chinese""},{""category"":""pinyin_or_romanization"",""severity"":""critical"",""description"":""The character '嘢' is a romanized form and not standard Mandarin script""},{""category"":""cantonese_or_non_mandarin"",""severity"":""critical"",""description"":""The translation uses Cantonese ('乜嘢') instead of Mandarin Chinese""},{""category"":""omission"",""severity"":""major"",""description"":""The meaning of the original question is partially omitted or misrepresented""}]}","{""score"":5,""feedback"":""The candidate partially preserves the meaning but has significant issues with translation accuracy and language compliance."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation contains English words like '乜嘢' which is a mix of English and Chinese""},{""category"":""pinyin_or_romanization"",""severity"":""critical"",""description"":""The character '嘢' is a romanized form and not standard Mandarin script""},{""category"":""cantonese_or_non_mandarin"",""severity"":""critical"",""description"":""The translation uses Cantonese ('乜嘢') instead of Mandarin Chinese""},{""category"":""omission"",""severity"":""major"",""description"":""The meaning of the original question is partially omitted or misrepresented""}]}
+
+</think>
+
+{""score"":5,""feedback"":""The candidate partially preserves the meaning but has significant issues with translation accuracy and language compliance."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The translation contains English words like '乜嘢' which is a mix of English and Chinese""},{""category"":""pinyin_or_romanization"",""severity"":""critical"",""description"":""The character '嘢' is a romanized form and not standard Mandarin script""},{""category"":""cantonese_or_non_mandarin"",""severity"":""critical"",""description"":""The translation uses Cantonese ('乜嘢') instead of Mandarin Chinese""},{""category"":""omission"",""severity"":""major"",""description"":""The meaning of the original question is partially omitted or misrepresented""}]}",,[],[],0,False,False,,,,,,,cantonese,True,3
+challenge,A,CH15_cantonese,P3_error_first,1,0.0,19600,What are you doing?,你做緊乜嘢？,,,5.0,True,True,The translation contains significant issues with terminology and script,"</think>
+
+{
+  ""score"": 5,
+  ""feedback"": ""The translation contains significant issues with terminology and script"",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": false,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": true,
+    ""cantonese_or_non_mandarin"": true
+  },
+  ""errors"": [
+    {
+      ""category"": ""script"",
+      ""severity"": ""critical"",
+      ""description"": ""Contains Cantonese characters (e.g. 嘢) which is not standard Mandarin""
+    },
+    {
+      ""category"": ""terminology"",
+      ""severity"": ""major"",
+      ""description"": ""Uses '做緊' which is Cantonese for 'doing' rather than standard Mandarin '正在'""
+    },
+    {
+      ""category"": ""terminology"",
+      ""severity"": ""major"",
+      ""description"": ""Uses '乜嘢' which is Cantonese for 'what' rather than standard Mandarin '什么'""
+    }
+  ]
+}",,"[""script"", ""terminology"", ""terminology""]","[""critical"", ""major"", ""major""]",3,True,True,True,True,False,False,True,True,cantonese,True,3
+challenge,A,CH15_cantonese,P4_combined,1,0.0,19700,What are you doing?,你做緊乜嘢？,,,2.0,True,False,"{""score"":2,""feedback"":""Severely flawed translation with multiple compliance and semantic issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Direct English phrase 'doing' retained""},{""category"":""pinyin_or_romanization"",""severity"":""critical"",""description"":""Use of romanization '乜嘢' instead of Chinese characters""},{""category"":""language"",""severity"":""critical"",""description"":""Cantonese dialect used instead of standard Mandarin""},{""category"":""terminology"",""severity"":""major"",""description"":""Inappropriate use of '做緊' for 'doing'""},{""category"":""grammar"",""severity"":""major"",""description"":""Grammatical structure does not match standard Mandarin""}]}
+
+
+{""score"":2,""feedback"":""Severely flawed translation with multiple compliance and semantic issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Direct English phrase 'doing' retained""},{""category"":""pinyin_or_romanization"",""severity"":""critical"",""description"":""Use of romanization '乜嘢' instead of Chinese characters""},{""category"":""language"",""severity"":""critical"",""description"":""Cantonese dialect used instead of standard Mandarin""},{""category"":""terminology"",""severity"":""major"",""description"":""Inappropriate use of '做緊' for 'doing'""},{""category"":""grammar"",""severity"":""major"",""description"":""Grammatical structure does not match standard Mandarin""}]}","{""score"":2,""feedback"":""Severely flawed translation with multiple compliance and semantic issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Direct English phrase 'doing' retained""},{""category"":""pinyin_or_romanization"",""severity"":""critical"",""description"":""Use of romanization '乜嘢' instead of Chinese characters""},{""category"":""language"",""severity"":""critical"",""description"":""Cantonese dialect used instead of standard Mandarin""},{""category"":""terminology"",""severity"":""major"",""description"":""Inappropriate use of '做緊' for 'doing'""},{""category"":""grammar"",""severity"":""major"",""description"":""Grammatical structure does not match standard Mandarin""}]}
+</think>
+
+{""score"":2,""feedback"":""Severely flawed translation with multiple compliance and semantic issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Direct English phrase 'doing' retained""},{""category"":""pinyin_or_romanization"",""severity"":""critical"",""description"":""Use of romanization '乜嘢' instead of Chinese characters""},{""category"":""language"",""severity"":""critical"",""description"":""Cantonese dialect used instead of standard Mandarin""},{""category"":""terminology"",""severity"":""major"",""description"":""Inappropriate use of '做緊' for 'doing'""},{""category"":""grammar"",""severity"":""major"",""description"":""Grammatical structure does not match standard Mandarin""}]}",,[],[],0,False,False,,,,,,,cantonese,True,3
+challenge,A,CH16_pinyin,P0_baseline,1,0.0,20300,Thank you very much.,Feichang ganxie ni.,,,5.0,True,False,"{""score"": 5, ""feedback"": ""The translation is grammatically incorrect. The correct form should be 'Feichang ganxie, ni.' or 'Ni feichang ganxie.'""}
+
+
+{""score"": 5, ""feedback"": ""The translation is grammatically incorrect. The correct form should be 'Feichang ganxie, ni.' or 'Ni feichang ganxie.'""}","{""score"": 5, ""feedback"": ""The translation is grammatically incorrect. The correct form should be 'Feichang ganxie, ni.' or 'Ni feichang ganxie.'""}
+</think>
+
+{""score"": 5, ""feedback"": ""The translation is grammatically incorrect. The correct form should be 'Feichang ganxie, ni.' or 'Ni feichang ganxie.'""}",,[],[],0,False,False,,,,,,,pinyin,True,2
+challenge,A,CH16_pinyin,P1_compliance,1,0.0,20400,Thank you very much.,Feichang ganxie ni.,,,2.0,True,False,"{""score"":2,""feedback"":""The translation contains English leakage and uses Pinyin instead of Mandarin."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The phrase 'ni' is English leakage""},{""category"":""pinyin_or_romanization"",""severity"":""critical"",""description"":""The translation uses Pinyin instead of Mandarin""}]}
+
+
+{""score"":2,""feedback"":""The translation contains English leakage and uses Pinyin instead of Mandarin."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The phrase 'ni' is English leakage""},{""category"":""pinyin_or_romanization"",""severity"":""critical"",""description"":""The translation uses Pinyin instead of Mandarin""}]}","{""score"":2,""feedback"":""The translation contains English leakage and uses Pinyin instead of Mandarin."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The phrase 'ni' is English leakage""},{""category"":""pinyin_or_romanization"",""severity"":""critical"",""description"":""The translation uses Pinyin instead of Mandarin""}]}
+</think>
+
+{""score"":2,""feedback"":""The translation contains English leakage and uses Pinyin instead of Mandarin."",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The phrase 'ni' is English leakage""},{""category"":""pinyin_or_romanization"",""severity"":""critical"",""description"":""The translation uses Pinyin instead of Mandarin""}]}",,[],[],0,False,False,,,,,,,pinyin,True,2
+challenge,A,CH16_pinyin,P2_semantic,1,0.0,20500,Thank you very much.,Feichang ganxie ni.,,,5.0,True,False,"{""score"":5,""feedback"":""The candidate partially preserves the meaning but has significant issues with linguistic accuracy and naturalness."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The phrase 'ni' is an English loanword and should be translated as 'nín' in Mandarin.""},{""category"":""terminology"",""severity"":""critical"",""description"":""The structure 'Feichang ganxie' is not natural Mandarin; the correct expression is 'Feichang ganxie nín'.""},{""category"":""grammar"",""severity"":""major"",""description"":""The sentence lacks proper tonal markers and punctuation.""}]}
+
+
+{""score"":5,""feedback"":""The candidate partially preserves the meaning but has significant issues with linguistic accuracy and naturalness."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The phrase 'ni' is an English loanword and should be translated as 'nín' in Mandarin.""},{""category"":""terminology"",""severity"":""critical"",""description"":""The structure 'Feichang ganxie' is not natural Mandarin; the correct expression is 'Feichang ganxie nín'.""},{""category"":""grammar"",""severity"":""major"",""description"":""The sentence lacks proper tonal markers and punctuation.""}]}","{""score"":5,""feedback"":""The candidate partially preserves the meaning but has significant issues with linguistic accuracy and naturalness."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The phrase 'ni' is an English loanword and should be translated as 'nín' in Mandarin.""},{""category"":""terminology"",""severity"":""critical"",""description"":""The structure 'Feichang ganxie' is not natural Mandarin; the correct expression is 'Feichang ganxie nín'.""},{""category"":""grammar"",""severity"":""major"",""description"":""The sentence lacks proper tonal markers and punctuation.""}]}
+</think>
+
+{""score"":5,""feedback"":""The candidate partially preserves the meaning but has significant issues with linguistic accuracy and naturalness."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""The phrase 'ni' is an English loanword and should be translated as 'nín' in Mandarin.""},{""category"":""terminology"",""severity"":""critical"",""description"":""The structure 'Feichang ganxie' is not natural Mandarin; the correct expression is 'Feichang ganxie nín'.""},{""category"":""grammar"",""severity"":""major"",""description"":""The sentence lacks proper tonal markers and punctuation.""}]}",,[],[],0,False,False,,,,,,,pinyin,True,2
+challenge,A,CH16_pinyin,P3_error_first,1,0.0,20600,Thank you very much.,Feichang ganxie ni.,,,4.0,True,True,The translation contains significant errors in both grammar and terminology.,"</think>
+
+{
+  ""score"": 4,
+  ""feedback"": ""The translation contains significant errors in both grammar and terminology."",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": [
+    {
+      ""category"": ""mistranslation"",
+      ""severity"": ""major"",
+      ""description"": ""The phrase 'Feichang ganxie ni' is a direct transliteration of English and not proper Mandarin""
+    },
+    {
+      ""category"": ""grammar"",
+      ""severity"": ""major"",
+      ""description"": ""The sentence structure is incorrect in Mandarin""
+    },
+    {
+      ""category"": ""terminology"",
+      ""severity"": ""major"",
+      ""description"": ""The term 'ganxie' is not standard Mandarin for 'thank you'""
+    }
+  ]
+}",,"[""mistranslation"", ""grammar"", ""terminology""]","[""major"", ""major"", ""major""]",3,True,False,True,True,True,False,False,False,pinyin,True,2
+challenge,A,CH16_pinyin,P4_combined,1,0.0,20700,Thank you very much.,Feichang ganxie ni.,,,5.0,True,False,"{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""English words 'ni' (you) directly used instead of Mandarin pronoun""},{""category"":""script"",""severity"":""critical"",""description"":""Latin characters used for 'Feichang' and 'ganxie' instead of Chinese characters""},{""category"":""language"",""severity"":""critical"",""description"":""Cantonese/Mandarin mix with non-standard grammar""},{""category"":""format"",""severity"":""critical"",""description"":""Mix of Latin characters and Chinese characters""}]}
+
+
+
+{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""English words 'ni' (you) directly used instead of Mandarin pronoun""},{""category"":""script"",""severity"":""critical"",""description"":""Latin characters used for 'Feichang' and 'ganxie' instead of Chinese characters""},{""category"":""language"",""severity"":""critical"",""description"":""Cantonese/Mandarin mix with non-standard grammar""},{""category"":""format"",""severity"":""critical"",""description"":""Mix of Latin characters and Chinese characters""}]}","{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""English words 'ni' (you) directly used instead of Mandarin pronoun""},{""category"":""script"",""severity"":""critical"",""description"":""Latin characters used for 'Feichang' and 'ganxie' instead of Chinese characters""},{""category"":""language"",""severity"":""critical"",""description"":""Cantonese/Mandarin mix with non-standard grammar""},{""category"":""format"",""severity"":""critical"",""description"":""Mix of Latin characters and Chinese characters""}]}
+
+</think>
+
+{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":true,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""English words 'ni' (you) directly used instead of Mandarin pronoun""},{""category"":""script"",""severity"":""critical"",""description"":""Latin characters used for 'Feichang' and 'ganxie' instead of Chinese characters""},{""category"":""language"",""severity"":""critical"",""description"":""Cantonese/Mandarin mix with non-standard grammar""},{""category"":""format"",""severity"":""critical"",""description"":""Mix of Latin characters and Chinese characters""}]}",,[],[],0,False,False,,,,,,,pinyin,True,2
+challenge,A,CH17_fluent_but_wrong,P0_baseline,1,0.0,21300,The company reported a loss this quarter.,该公司本季度实现了盈利。,,,1.0,True,False,"{""score"": 1, ""feedback"": ""The translation is completely incorrect. The source says the company reported a loss, but the translation claims it achieved profits.""}
+
+
+{""score"": 1, ""feedback"": ""The translation is completely incorrect. The source says the company reported a loss, but the translation claims it achieved profits.""}","{""score"": 1, ""feedback"": ""The translation is completely incorrect. The source says the company reported a loss, but the translation claims it achieved profits.""}
+</think>
+
+{""score"": 1, ""feedback"": ""The translation is completely incorrect. The source says the company reported a loss, but the translation claims it achieved profits.""}",,[],[],0,False,False,,,,,,,fluent_but_wrong,True,3
+challenge,A,CH17_fluent_but_wrong,P1_compliance,1,0.0,21400,The company reported a loss this quarter.,该公司本季度实现了盈利。,,,2.0,True,False,"{""score"":2,""feedback"":""严重误译"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""将'loss'错误翻译为'盈利'，与原文相反""}]}
+
+
+{""score"":2,""feedback"":""严重误译"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""将'loss'错误翻译为'盈利'，与原文相反""}]}","{""score"":2,""feedback"":""严重误译"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""将'loss'错误翻译为'盈利'，与原文相反""}]}
+</think>
+
+{""score"":2,""feedback"":""严重误译"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":false,""simplified_chinese"":false,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":true},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""将'loss'错误翻译为'盈利'，与原文相反""}]}",,[],[],0,False,False,,,,,,,fluent_but_wrong,True,3
+challenge,A,CH17_fluent_but_wrong,P2_semantic,1,0.0,21500,The company reported a loss this quarter.,该公司本季度实现了盈利。,,,2.0,True,False,"{""score"":2,""feedback"":""严重误译"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""将'loss'错误翻译为'盈利'，与原意相反""}]}
+
+
+{""score"":2,""feedback"":""严重误译"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""将'loss'错误翻译为'盈利'，与原意相反""}]}","{""score"":2,""feedback"":""严重误译"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""将'loss'错误翻译为'盈利'，与原意相反""}]}
+</think>
+
+{""score"":2,""feedback"":""严重误译"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""将'loss'错误翻译为'盈利'，与原意相反""}]}",,[],[],0,False,False,,,,,,,fluent_but_wrong,True,3
+challenge,A,CH17_fluent_but_wrong,P3_error_first,1,0.0,21600,The company reported a loss this quarter.,该公司本季度实现了盈利。,,,1.0,True,True,严重错误,"</think>
+
+{
+  ""score"": 1,
+  ""feedback"": ""严重错误"",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": [
+    {
+      ""category"": ""mistranslation"",
+      ""severity"": ""critical"",
+      ""description"": ""将'loss'错误翻译为'盈利'，与原文意思完全相反""
+    }
+  ]
+}",,"[""mistranslation""]","[""critical""]",1,False,True,True,True,True,False,False,False,fluent_but_wrong,True,3
+challenge,A,CH17_fluent_but_wrong,P4_combined,1,0.0,21700,The company reported a loss this quarter.,该公司本季度实现了盈利。,,,2.0,True,False,"{""score"":2,""feedback"":""严重错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""原文'loss'被错误翻译为'盈利'，直接矛盾""}]}
+
+
+{""score"":2,""feedback"":""严重错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""原文'loss'被错误翻译为'盈利'，直接矛盾""}]}","{""score"":2,""feedback"":""严重错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""原文'loss'被错误翻译为'盈利'，直接矛盾""}]}
+</think>
+
+{""score"":2,""feedback"":""严重错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""原文'loss'被错误翻译为'盈利'，直接矛盾""}]}",,[],[],0,False,False,,,,,,,fluent_but_wrong,True,3
+challenge,A,CH18_wrong_date,P0_baseline,1,0.0,22300,The deadline is October 12.,截止日期是10月21日。,,,5.0,True,False,"{""score"": 5, ""feedback"": ""Translation is inaccurate. The source says October 12, but the translation says October 21.""}
+
+
+{""score"": 5, ""feedback"": ""Translation is inaccurate. The source says October 12, but the translation says October 21.""}","{""score"": 5, ""feedback"": ""Translation is inaccurate. The source says October 12, but the translation says October 21.""}
+</think>
+
+{""score"": 5, ""feedback"": ""Translation is inaccurate. The source says October 12, but the translation says October 21.""}",,[],[],0,False,False,,,,,,,number,True,4
+challenge,A,CH18_wrong_date,P1_compliance,1,0.0,22400,The deadline is October 12.,截止日期是10月21日。,,,5.0,True,False,"{""score"":5,""feedback"":""部分信息错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""日期错误，原文为12日，译文为21日""}]}
+
+
+{""score"":5,""feedback"":""部分信息错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""日期错误，原文为12日，译文为21日""}]}","{""score"":5,""feedback"":""部分信息错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""日期错误，原文为12日，译文为21日""}]}
+</think>
+
+{""score"":5,""feedback"":""部分信息错误"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""日期错误，原文为12日，译文为21日""}]}",,[],[],0,False,False,,,,,,,number,True,4
+challenge,A,CH18_wrong_date,P2_semantic,1,0.0,22500,The deadline is October 12.,截止日期是10月21日。,,,5.0,True,True,核心含义部分保留但存在明显错误,"</think>
+
+{
+  ""score"": 5,
+  ""feedback"": ""核心含义部分保留但存在明显错误"",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": false,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": [
+    {
+      ""category"": ""mistranslation"",
+      ""severity"": ""critical"",
+      ""description"": ""日期错误，将October 12错误翻译为10月21日""
+    }
+  ]
+}",,"[""mistranslation""]","[""critical""]",1,False,True,True,True,True,False,False,False,number,True,4
+challenge,A,CH18_wrong_date,P3_error_first,1,0.0,22600,The deadline is October 12.,截止日期是10月21日。,,,5.0,True,False,"{""score"": 5, ""feedback"": ""错误地将10月12日翻译为10月21日"", ""compliance"": {""fully_translated"": true, ""target_language_mandarin"": true, ""simplified_chinese"": true, ""english_leakage"": false, ""pinyin_or_romanization"": false, ""cantonese_or_non_mandarin"": false}, ""errors"": [{""category"":""number"",""severity"":""critical"",""description"":""日期错误，10月12日被错误翻译为10月21日""}]}
+
+
+{""score"": 5, ""feedback"": ""错误地将10月12日翻译为10月21日"", ""compliance"": {""fully_translated"": true, ""target_language_mandarin"": true, ""simplified_chinese"": true, ""english_leakage"": false, ""pinyin_or_romanization"": false, ""cantonese_or_non_mandarin"": false}, ""errors"": [{""category"":""number"",""severity"":""critical"",""description"":""日期错误，10月12日被错误翻译为10月21日""}]}","{""score"": 5, ""feedback"": ""错误地将10月12日翻译为10月21日"", ""compliance"": {""fully_translated"": true, ""target_language_mandarin"": true, ""simplified_chinese"": true, ""english_leakage"": false, ""pinyin_or_romanization"": false, ""cantonese_or_non_mandarin"": false}, ""errors"": [{""category"":""number"",""severity"":""critical"",""description"":""日期错误，10月12日被错误翻译为10月21日""}]}
+</think>
+
+{""score"": 5, ""feedback"": ""错误地将10月12日翻译为10月21日"", ""compliance"": {""fully_translated"": true, ""target_language_mandarin"": true, ""simplified_chinese"": true, ""english_leakage"": false, ""pinyin_or_romanization"": false, ""cantonese_or_non_mandarin"": false}, ""errors"": [{""category"":""number"",""severity"":""critical"",""description"":""日期错误，10月12日被错误翻译为10月21日""}]}",,[],[],0,False,False,,,,,,,number,True,4
+challenge,A,CH18_wrong_date,P4_combined,1,0.0,22700,The deadline is October 12.,截止日期是10月21日。,,,5.0,True,False,"{""score"":5,""feedback"":""Partial translation with significant errors"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""Incorrect date translation (October 12 vs 10月21日)""}]}
+
+
+{""score"":5,""feedback"":""Partial translation with significant errors"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""Incorrect date translation (October 12 vs 10月21日)""}]}","{""score"":5,""feedback"":""Partial translation with significant errors"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""Incorrect date translation (October 12 vs 10月21日)""}]}
+</think>
+
+{""score"":5,""feedback"":""Partial translation with significant errors"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""critical"",""description"":""Incorrect date translation (October 12 vs 10月21日)""}]}",,[],[],0,False,False,,,,,,,number,True,4
+challenge,A,CH19_partial_translation,P0_baseline,1,0.0,23300,"Click Save, then restart the application.",点击“保存”，then restart the application.,,,10.0,True,False,"{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning without any errors.""}
+
+
+{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning without any errors.""}","{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning without any errors.""}
+</think>
+
+{""score"": 10, ""feedback"": ""The translation is accurate, fluent, and maintains the original meaning without any errors.""}",,[],[],0,False,False,,,,,,,source_leakage,True,4
+challenge,A,CH19_partial_translation,P1_compliance,1,0.0,23400,"Click Save, then restart the application.",点击“保存”，then restart the application.,,,6.0,True,False,"{""score"":6,""feedback"":""Partial translation with some issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""English term 'Save' is directly used instead of translated to '保存'""},{""category"":""grammar"",""severity"":""major"",""description"":""Use of 'then' in English instead of appropriate Chinese conjunction""}]}
+
+
+{""score"":6,""feedback"":""Partial translation with some issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""English term 'Save' is directly used instead of translated to '保存'""},{""category"":""grammar"",""severity"":""major"",""description"":""Use of 'then' in English instead of appropriate Chinese conjunction""}]}","{""score"":6,""feedback"":""Partial translation with some issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""English term 'Save' is directly used instead of translated to '保存'""},{""category"":""grammar"",""severity"":""major"",""description"":""Use of 'then' in English instead of appropriate Chinese conjunction""}]}
+</think>
+
+{""score"":6,""feedback"":""Partial translation with some issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":true,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""English term 'Save' is directly used instead of translated to '保存'""},{""category"":""grammar"",""severity"":""major"",""description"":""Use of 'then' in English instead of appropriate Chinese conjunction""}]}",,[],[],0,False,False,,,,,,,source_leakage,True,4
+challenge,A,CH19_partial_translation,P2_semantic,1,0.0,23500,"Click Save, then restart the application.",点击“保存”，then restart the application.,,,8.0,True,True,The core meaning is preserved but there is a minor issue with the translation of 'then' and the use of English terms in Mandarin text.,"</think>
+
+{
+  ""score"": 8,
+  ""feedback"": ""The core meaning is preserved but there is a minor issue with the translation of 'then' and the use of English terms in Mandarin text."",
+  ""compliance"": {
+    ""fully_translated"": true,
+    ""target_language_mandarin"": true,
+    ""simplified_chinese"": true,
+    ""english_leakage"": true,
+    ""pinyin_or_romanization"": false,
+    ""cantonese_or_non_mandarin"": false
+  },
+  ""errors"": [
+    {
+      ""category"": ""source_leakage"",
+      ""severity"": ""minor"",
+      ""description"": ""Use of English term 'Save' in Mandarin text""
+    },
+    {
+      ""category"": ""fluency"",
+      ""severity"": ""minor"",
+      ""description"": ""Use of 'then' in Mandarin context""
+    }
+  ]
+}",,"[""source_leakage"", ""fluency""]","[""minor"", ""minor""]",2,False,False,True,True,True,True,False,False,source_leakage,True,4
+challenge,A,CH19_partial_translation,P3_error_first,1,0.0,23600,"Click Save, then restart the application.",点击“保存”，then restart the application.,,,7.0,True,False,"{""score"":7,""feedback"":""The translation is mostly accurate but has some issues with terminology and fluency."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""terminology"",""severity"":""major"",""description"":""'Save' is translated as '保存' which is correct, but the phrase 'then restart the application' is not naturally phrased in Mandarin.""},{""category"":""fluency"",""severity"":""major"",""description"":""The use of 'then' in the translation is awkward and does not flow naturally in Mandarin.""}]}
+
+
+{""score"":7,""feedback"":""The translation is mostly accurate but has some issues with terminology and fluency."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""terminology"",""severity"":""major"",""description"":""'Save' is translated as '保存' which is correct, but the phrase 'then restart the application' is not naturally phrased in Mandarin.""},{""category"":""fluency"",""severity"":""major"",""description"":""The use of 'then' in the translation is awkward and does not flow naturally in Mandarin.""}]}","{""score"":7,""feedback"":""The translation is mostly accurate but has some issues with terminology and fluency."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""terminology"",""severity"":""major"",""description"":""'Save' is translated as '保存' which is correct, but the phrase 'then restart the application' is not naturally phrased in Mandarin.""},{""category"":""fluency"",""severity"":""major"",""description"":""The use of 'then' in the translation is awkward and does not flow naturally in Mandarin.""}]}
+</think>
+
+{""score"":7,""feedback"":""The translation is mostly accurate but has some issues with terminology and fluency."",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""terminology"",""severity"":""major"",""description"":""'Save' is translated as '保存' which is correct, but the phrase 'then restart the application' is not naturally phrased in Mandarin.""},{""category"":""fluency"",""severity"":""major"",""description"":""The use of 'then' in the translation is awkward and does not flow naturally in Mandarin.""}]}",,[],[],0,False,False,,,,,,,source_leakage,True,4
+challenge,A,CH19_partial_translation,P4_combined,1,0.0,23700,"Click Save, then restart the application.",点击“保存”，then restart the application.,,,7.0,True,False,"{""score"":7,""feedback"":""Correct overall with minor errors"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""terminology"",""severity"":""minor"",""description"":""Use of \""then\"" in Mandarin is less common; more natural phrasing would be \""然后\"" or omit it for conciseness""}]}
+
+
+{""score"":7,""feedback"":""Correct overall with minor errors"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""terminology"",""severity"":""minor"",""description"":""Use of \""then\"" in Mandarin is less common; more natural phrasing would be \""然后\"" or omit it for conciseness""}]}","{""score"":7,""feedback"":""Correct overall with minor errors"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""terminology"",""severity"":""minor"",""description"":""Use of \""then\"" in Mandarin is less common; more natural phrasing would be \""然后\"" or omit it for conciseness""}]}
+</think>
+
+{""score"":7,""feedback"":""Correct overall with minor errors"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""terminology"",""severity"":""minor"",""description"":""Use of \""then\"" in Mandarin is less common; more natural phrasing would be \""然后\"" or omit it for conciseness""}]}",,[],[],0,False,False,,,,,,,source_leakage,True,4
+challenge,A,CH20_idiom,P0_baseline,1,0.0,24300,Let's call it a day.,让我们称它为一天。,,,5.0,True,False,"{""score"": 5, ""feedback"": ""Literal translation lacks natural expression; 'Let's call it a day' is an idiom meaning to end an activity, better translated as '我们今天就到这里' for natural fluency.""}
+
+
+{""score"": 5, ""feedback"": ""Literal translation lacks natural expression; 'Let's call it a day' is an idiom meaning to end an activity, better translated as '我们今天就到这里' for natural fluency.""}","{""score"": 5, ""feedback"": ""Literal translation lacks natural expression; 'Let's call it a day' is an idiom meaning to end an activity, better translated as '我们今天就到这里' for natural fluency.""}
+</think>
+
+{""score"": 5, ""feedback"": ""Literal translation lacks natural expression; 'Let's call it a day' is an idiom meaning to end an activity, better translated as '我们今天就到这里' for natural fluency.""}",,[],[],0,False,False,,,,,,,idiom_mistranslation,True,4
+challenge,A,CH20_idiom,P1_compliance,1,0.0,24400,Let's call it a day.,让我们称它为一天。,,,5.0,True,False,"{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Literal translation of 'call it a day' as '称它为一天' instead of idiomatic expression""},{""category"":""terminology"",""severity"":""major"",""description"":""Use of '称...为' instead of more natural '算' or '结束'""},{""category"":""fluency"",""severity"":""major"",""description"":""Awkward phrasing that does not sound natural in Mandarin""}]}
+
+
+{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Literal translation of 'call it a day' as '称它为一天' instead of idiomatic expression""},{""category"":""terminology"",""severity"":""major"",""description"":""Use of '称...为' instead of more natural '算' or '结束'""},{""category"":""fluency"",""severity"":""major"",""description"":""Awkward phrasing that does not sound natural in Mandarin""}]}","{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Literal translation of 'call it a day' as '称它为一天' instead of idiomatic expression""},{""category"":""terminology"",""severity"":""major"",""description"":""Use of '称...为' instead of more natural '算' or '结束'""},{""category"":""fluency"",""severity"":""major"",""description"":""Awkward phrasing that does not sound natural in Mandarin""}]}
+</think>
+
+{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Literal translation of 'call it a day' as '称它为一天' instead of idiomatic expression""},{""category"":""terminology"",""severity"":""major"",""description"":""Use of '称...为' instead of more natural '算' or '结束'""},{""category"":""fluency"",""severity"":""major"",""description"":""Awkward phrasing that does not sound natural in Mandarin""}]}",,[],[],0,False,False,,,,,,,idiom_mistranslation,True,4
+challenge,A,CH20_idiom,P2_semantic,1,0.0,24500,Let's call it a day.,让我们称它为一天。,,,7.0,True,False,"{""score"":7,""feedback"":""基本保留了原意，但存在轻微语言问题"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""fluency"",""severity"":""minor"",""description"":""'称它为一天'直译，自然度稍差""}]}
+
+
+{""score"":7,""feedback"":""基本保留了原意，但存在轻微语言问题"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""fluency"",""severity"":""minor"",""description"":""'称它为一天'直译，自然度稍差""}]}","{""score"":7,""feedback"":""基本保留了原意，但存在轻微语言问题"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""fluency"",""severity"":""minor"",""description"":""'称它为一天'直译，自然度稍差""}]}
+</think>
+
+{""score"":7,""feedback"":""基本保留了原意，但存在轻微语言问题"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""fluency"",""severity"":""minor"",""description"":""'称它为一天'直译，自然度稍差""}]}",,[],[],0,False,False,,,,,,,idiom_mistranslation,True,4
+challenge,A,CH20_idiom,P3_error_first,1,0.0,24600,Let's call it a day.,让我们称它为一天。,,,5.0,True,False,"{""score"":5,""feedback"":""The translation is not natural in Mandarin"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""major"",""description"":""The phrase 'call it a day' is mistranslated as '称它为一天' which is literally translated rather than conveying the idiomatic meaning of stopping or ending an activity.""}]}
+
+
+{""score"":5,""feedback"":""The translation is not natural in Mandarin"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""major"",""description"":""The phrase 'call it a day' is mistranslated as '称它为一天' which is literally translated rather than conveying the idiomatic meaning of stopping or ending an activity.""}]}","{""score"":5,""feedback"":""The translation is not natural in Mandarin"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""major"",""description"":""The phrase 'call it a day' is mistranslated as '称它为一天' which is literally translated rather than conveying the idiomatic meaning of stopping or ending an activity.""}]}
+</think>
+
+{""score"":5,""feedback"":""The translation is not natural in Mandarin"",""compliance"":{""fully_translated"":true,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""mistranslation"",""severity"":""major"",""description"":""The phrase 'call it a day' is mistranslated as '称它为一天' which is literally translated rather than conveying the idiomatic meaning of stopping or ending an activity.""}]}",,[],[],0,False,False,,,,,,,idiom_mistranslation,True,4
+challenge,A,CH20_idiom,P4_combined,1,0.0,24700,Let's call it a day.,让我们称它为一天。,,,5.0,True,False,"{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Direct English phrase 'call it a day' retained""},{""category"":""mistranslation"",""severity"":""major"",""description"":""'call it a day' mistranslated as '称它为一天' instead of idiomatic expression""},{""category"":""fluency"",""severity"":""minor"",""description"":""Awkward phrasing in Mandarin""}]}
+
+
+{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Direct English phrase 'call it a day' retained""},{""category"":""mistranslation"",""severity"":""major"",""description"":""'call it a day' mistranslated as '称它为一天' instead of idiomatic expression""},{""category"":""fluency"",""severity"":""minor"",""description"":""Awkward phrasing in Mandarin""}]}","{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Direct English phrase 'call it a day' retained""},{""category"":""mistranslation"",""severity"":""major"",""description"":""'call it a day' mistranslated as '称它为一天' instead of idiomatic expression""},{""category"":""fluency"",""severity"":""minor"",""description"":""Awkward phrasing in Mandarin""}]}
+</think>
+
+{""score"":5,""feedback"":""Partial translation with significant issues"",""compliance"":{""fully_translated"":false,""target_language_mandarin"":true,""simplified_chinese"":true,""english_leakage"":false,""pinyin_or_romanization"":false,""cantonese_or_non_mandarin"":false},""errors"":[{""category"":""source_leakage"",""severity"":""critical"",""description"":""Direct English phrase 'call it a day' retained""},{""category"":""mistranslation"",""severity"":""major"",""description"":""'call it a day' mistranslated as '称它为一天' instead of idiomatic expression""},{""category"":""fluency"",""severity"":""minor"",""description"":""Awkward phrasing in Mandarin""}]}",,[],[],0,False,False,,,,,,,idiom_mistranslation,True,4
