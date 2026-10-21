@@ -1,0 +1,8 @@
+fault_type,expected_minimum_drop,attempted,scored,skipped,unscorable,mean_score_drop,median_score_drop,threshold_met_count,threshold_met_rate,finding_status
+untranslated_english,7.0,43,43,0,0,6.628,7.0,27,0.628,NOT_RELIABLY_DETECTED_ON_TESTED_CASES
+negation_error,5.0,43,31,12,0,3.452,3.0,6,0.194,NOT_RELIABLY_DETECTED_ON_TESTED_CASES
+entity_error,4.0,43,7,36,0,4.0,3.0,3,0.429,NOT_RELIABLY_DETECTED_ON_TESTED_CASES
+number_error,4.0,43,20,23,0,3.3,3.0,8,0.4,NOT_RELIABLY_DETECTED_ON_TESTED_CASES
+dropped_clause,3.0,43,34,9,0,5.147,5.5,30,0.882,MEETS_EXPECTATION_ON_TESTED_CASES
+truncation,3.0,43,43,0,0,5.07,5.0,40,0.93,MEETS_EXPECTATION_ON_TESTED_CASES
+punctuation_control,0.0,43,43,0,0,0.093,0.0,42,0.977,MEETS_EXPECTATION_ON_TESTED_CASES
