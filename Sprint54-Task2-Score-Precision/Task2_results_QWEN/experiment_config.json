@@ -1,0 +1,36 @@
+{
+  "config": {
+    "task": "Sprint54_Task2",
+    "model_name": "Qwen/Qwen3-8B",
+    "prompt_id": "P1_compliance",
+    "temperatures": [
+      0.0,
+      0.2
+    ],
+    "runs_per_temperature": 3,
+    "max_seq_length": 4096,
+    "max_new_tokens": 512,
+    "load_in_4bit": true,
+    "direction": "EN_CMN",
+    "actionable_difference_points": 0.5,
+    "sample_size_planning_alpha": 0.05,
+    "sample_size_planning_power": 0.8
+  },
+  "config_fingerprint_sha256": "faf573b7616af885e90e800fb351d5866b55f0b63b492dfa8c1f6e03c3b80635",
+  "prompt_sha256": "6670fc23a0fa9377bbc13dc20e37ebd19bbfad01e33086fd0f142e2ed0dad7b4",
+  "timestamp_utc": "2026-10-18T04:56:19.025857+00:00",
+  "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "platform": "Linux-6.18.48+-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "gpu": "Tesla T4",
+  "cuda_runtime": "12.8",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.16.1",
+  "unsloth": "2026.10.6",
+  "numpy": "2.1.3",
+  "pandas": "2.3.3",
+  "dataset_path": "/kaggle/input/datasets/abdighaz/sprint-54-tasks/gold_set_labeled.csv",
+  "dataset_sha256": "0fdc9bafb2f4c8102de124ca150417744f0876ca44685f1dc189ec14b7ee3448",
+  "git_commit": null,
+  "gold_rows_for_direction": 50
+}

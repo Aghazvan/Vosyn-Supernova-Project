@@ -1,0 +1,3 @@
+temperature,examples_attempted,examples_with_2plus_valid_runs,mean_score_range,median_score_range,max_score_range,mean_within_example_sd,examples_with_identical_runs,valid_example_means,between_example_sd_of_means,set_mean_sem,approx_95pct_margin_for_set_mean
+0.0,50,50,0.0,0.0,0.0,0.0,50,50,1.2303973142933986,0.17400445689811558,0.3410487355203065
+0.2,50,50,0.4,0.0,2.0,0.23094010767585027,32,50,1.0545442105779594,0.14913507247213792,0.2923047420453903
