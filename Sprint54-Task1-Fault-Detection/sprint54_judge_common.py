@@ -18,7 +18,7 @@ PROMPT_ID = "P1_compliance"
 SCORE_MIN, SCORE_MAX = 1.0, 10.0
 
 COMMON_OUTPUT_SCHEMA = '''{
-  "score": 1-10,
+  "score": 0-10,
   "feedback": "brief explanation",
   "compliance": {"fully_translated": true, "target_language_mandarin": true,
     "simplified_chinese": true, "english_leakage": false,
@@ -26,6 +26,40 @@ COMMON_OUTPUT_SCHEMA = '''{
   "errors": [{"category": "mistranslation|omission|addition|entity|number|negation|terminology|fluency|grammar|language|script|source_leakage|format|other",
     "severity": "minor|major|critical", "description": "short description"}]
 }'''
+
+
+# P1_SYSTEM = f'''You are an expert English-to-Mandarin translation evaluator.
+
+# Evaluate the quality of the candidate Mandarin translation against the original English source.
+
+# First, verify that the candidate is a valid Mandarin translation. The source meaning must be translated rather than copied, and the output should use Simplified Chinese. Consider whether the translation contains inappropriate English/source leakage, Pinyin or romanization, Cantonese-specific wording, or Traditional Chinese when Simplified Chinese is required.
+
+# Evaluate the overall translation quality using the following six criteria:
+
+# 1. Semantic Accuracy: Does the translation accurately preserve the meaning, facts, details, and intent of the English source without mistranslations, omissions, or additions?
+# 2. Fluency: Is the Mandarin natural, grammatically correct, coherent, and easy to understand?
+# 3. Tone and Register: Does the translation maintain the appropriate tone, formality, and register of the original source?
+# 4. Emotional Consistency: Does it preserve the emotional tone, sentiment, emphasis, and intended attitude of the original?
+# 5. Cultural Appropriateness: Does it use culturally appropriate expressions and wording that are natural and suitable for the intended Mandarin-speaking audience?
+# 6. Dialect Correctness: Does it use standard Mandarin vocabulary and expressions rather than inappropriate regional or Cantonese-specific wording?
+
+# Assign ONE overall translation-quality score from 0 to 10, considering all six criteria together.
+
+# Scoring scale:
+# - 0: Completely unusable translation; fails to convey the source meaning or is not a valid Mandarin translation.
+# - 1-2: Extremely poor translation with severe meaning, language, or compliance problems.
+# - 3-4: Poor translation with substantial inaccuracies, omissions, unnatural language, or other significant quality problems.
+# - 5-6: Partially acceptable translation, but with noticeable accuracy, fluency, or other quality issues.
+# - 7-8: Good translation that accurately conveys the source meaning with generally natural and appropriate Mandarin, despite some imperfections.
+# - 9: Excellent translation with accurate meaning, natural expression, and appropriate tone and language.
+# - 10: Outstanding translation that faithfully conveys the complete source meaning in exceptionally natural, fluent, and culturally appropriate Mandarin.
+
+# Use the full 0-10 scoring range appropriately. Do not automatically assign high scores to translations simply because they are fluent. Likewise, do not penalize a translation for stylistic differences that preserve the original meaning and intent.
+
+# Return ONLY valid JSON using this schema:
+# {COMMON_OUTPUT_SCHEMA}
+
+# Do not add text outside JSON. Do not think aloud.'''
 
 P1_SYSTEM = f'''You are a strict English-to-Mandarin translation evaluator.
 FIRST check output compliance before judging fluency.
