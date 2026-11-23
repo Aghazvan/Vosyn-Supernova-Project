@@ -1,0 +1,919 @@
+{
+  "status": "converted_without_record_filtering",
+  "source_file": "/Users/abdighaz/Documents/vosyn/sprint56_taskA/data/raw/andromeda/dataset_v7.jsonl",
+  "source_records_read": 675,
+  "selected_records": 179,
+  "expected_selected_records": 179,
+  "language_pair_counts": {
+    "en-yue": 126,
+    "en-zh": 53
+  },
+  "translation_direction_counts": {
+    "en->yue": 111,
+    "en->zh": 27,
+    "yue->en": 15,
+    "zh->en": 26
+  },
+  "label_source_counts": {
+    "engineered_perturbation": 63,
+    "human_reviewed": 66,
+    "weak_mt_style": 50
+  },
+  "pre_conversion_error_audit": {
+    "en->yue": {
+      "n_records": 111,
+      "record_counts_by_error_bucket": {
+        "hallucination": 12,
+        "mixed_script": 5,
+        "no_error": 40,
+        "omission": 12,
+        "simplified_script": 12,
+        "standard_written_chinese": 12,
+        "unsafe_mistranslation": 6,
+        "wrong_entity_or_number": 12
+      },
+      "annotation_counts_by_error_type": {
+        "hallucination": 12,
+        "mixed_script": 5,
+        "omission": 12,
+        "simplified_script": 12,
+        "standard_written_chinese": 12,
+        "unsafe_mistranslation": 6,
+        "wrong_entity_or_number": 12
+      },
+      "annotation_counts_by_severity": {
+        "critical": 16,
+        "major": 31,
+        "minor": 24
+      }
+    },
+    "en->zh": {
+      "n_records": 27,
+      "record_counts_by_error_bucket": {
+        "currency_unit_error": 1,
+        "degenerate_repetition": 1,
+        "hallucination": 2,
+        "homonym_mistranslation": 1,
+        "idiom_mistranslation": 1,
+        "idiom_suboptimal": 1,
+        "mistranslation": 1,
+        "negation_flip": 2,
+        "no_error": 9,
+        "no_output": 1,
+        "omission": 2,
+        "register": 2,
+        "untranslated_text": 1,
+        "wrong_entity_or_number": 2
+      },
+      "annotation_counts_by_error_type": {
+        "currency_unit_error": 1,
+        "degenerate_repetition": 1,
+        "hallucination": 2,
+        "homonym_mistranslation": 1,
+        "idiom_mistranslation": 1,
+        "idiom_suboptimal": 1,
+        "mistranslation": 1,
+        "negation_flip": 2,
+        "no_output": 1,
+        "omission": 2,
+        "register": 2,
+        "untranslated_text": 1,
+        "wrong_entity_or_number": 2
+      },
+      "annotation_counts_by_severity": {
+        "critical": 7,
+        "major": 9,
+        "minor": 2
+      }
+    },
+    "yue->en": {
+      "n_records": 15,
+      "record_counts_by_error_bucket": {
+        "hallucination": 1,
+        "mistranslation": 1,
+        "negation_flip": 2,
+        "no_error": 8,
+        "omission": 1,
+        "register": 1,
+        "truncation": 1
+      },
+      "annotation_counts_by_error_type": {
+        "hallucination": 1,
+        "mistranslation": 1,
+        "negation_flip": 2,
+        "omission": 1,
+        "register": 1,
+        "truncation": 1
+      },
+      "annotation_counts_by_severity": {
+        "critical": 4,
+        "major": 3
+      }
+    },
+    "zh->en": {
+      "n_records": 26,
+      "record_counts_by_error_bucket": {
+        "currency_unit_error": 1,
+        "hallucination": 1,
+        "homonym_mistranslation": 1,
+        "idiom_mistranslation": 1,
+        "idiom_suboptimal": 1,
+        "mistranslation": 1,
+        "negation_flip": 2,
+        "no_error": 9,
+        "no_output": 1,
+        "omission": 2,
+        "register": 2,
+        "truncation": 1,
+        "untranslated_text": 1,
+        "wrong_entity_or_number": 2
+      },
+      "annotation_counts_by_error_type": {
+        "currency_unit_error": 1,
+        "hallucination": 1,
+        "homonym_mistranslation": 1,
+        "idiom_mistranslation": 1,
+        "idiom_suboptimal": 1,
+        "mistranslation": 1,
+        "negation_flip": 2,
+        "no_output": 1,
+        "omission": 2,
+        "register": 2,
+        "truncation": 1,
+        "untranslated_text": 1,
+        "wrong_entity_or_number": 2
+      },
+      "annotation_counts_by_severity": {
+        "critical": 7,
+        "major": 8,
+        "minor": 2
+      }
+    }
+  },
+  "score_mapping": {
+    "name": "endpoint_preserving_linear_1_to_10",
+    "formula": "score_10 = 2.5 * (score_5 - 1)",
+    "input_min": 1.0,
+    "input_max": 5.0,
+    "output_min": 0.0,
+    "output_max": 10.0,
+    "anchors": {
+      "1": 0.0,
+      "2": 2.5,
+      "3": 5.0,
+      "4": 7.5,
+      "5": 10.0
+    },
+    "scope": "overall_score only; dimension_scores remain in their original 1-5 scale",
+    "rationale": "Maps both endpoints to the full 0-10 target range while preserving equal intervals and the ordering of the original ordinal score values. The original overall_score is retained separately for auditability."
+  },
+  "score_value_counts_original": {
+    "1.0": 24,
+    "2": 22,
+    "2.0": 30,
+    "3.0": 11,
+    "4": 24,
+    "4.0": 2,
+    "5.0": 66
+  },
+  "output_file_counts": {
+    "data/cmn/golden/human_reviewed.jsonl": 18,
+    "data/cmn/golden/engineered_perturbation.jsonl": 16,
+    "data/cmn/golden/weak_mt_style.jsonl": 19,
+    "data/yue/golden/human_reviewed.jsonl": 48,
+    "data/yue/golden/engineered_perturbation.jsonl": 47,
+    "data/yue/golden/weak_mt_style.jsonl": 31
+  },
+  "records_written": 179,
+  "score_mapping_failures": [],
+  "record_destinations": [
+    {
+      "id": "en_yue_0001_omission",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0002_hallucination",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0003_standard_written_chinese",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0004_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0005_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0006_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0008_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0014_wrong_entity_or_number",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0020_simplified_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0027_standard_written_chinese",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0040_wrong_entity_or_number",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0043_standard_written_chinese",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0049_omission",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0050_hallucination",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0051_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0052_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0053_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0054_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0064_wrong_entity_or_number",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0067_standard_written_chinese",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0076_simplified_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0089_omission",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0090_hallucination",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0101_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0102_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0103_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0104_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0120_wrong_entity_or_number",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0137_omission",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0138_hallucination",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0140_simplified_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0147_standard_written_chinese",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0152_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0153_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0154_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0155_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0161_omission",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0179_standard_written_chinese",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0182_wrong_entity_or_number",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0185_omission",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0186_hallucination",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0187_standard_written_chinese",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0188_simplified_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0201_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0202_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0203_standard_written_chinese",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0204_simplified_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0205_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0206_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0210_hallucination",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0238_wrong_entity_or_number",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0241_omission",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0242_hallucination",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0244_simplified_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0251_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0252_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0253_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0254_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0261_mixed_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0266_hallucination",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0269_mixed_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0273_omission",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0278_wrong_entity_or_number",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0281_omission",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0282_hallucination",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0293_mixed_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0301_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0302_wrong_entity_or_number",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0304_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0305_omission",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0306_hallucination",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0307_standard_written_chinese",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0308_simplified_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0309_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0310_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0331_standard_written_chinese",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0333_mixed_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0340_simplified_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0344_wrong_entity_or_number",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0351_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0352_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0353_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0354_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0401_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0402_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0403_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0404_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0412_simplified_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0413_mixed_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0414_wrong_entity_or_number",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0430_wrong_entity_or_number",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0433_omission",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0434_hallucination",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0435_standard_written_chinese",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0436_simplified_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0451_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0452_gold",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0453_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0454_acceptable",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_yue_0456_unsafe_mistranslation",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0459_standard_written_chinese",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0462_wrong_entity_or_number",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0464_unsafe_mistranslation",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0472_unsafe_mistranslation",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0476_simplified_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0480_unsafe_mistranslation",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0481_omission",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0482_hallucination",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0484_simplified_script",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_yue_0488_unsafe_mistranslation",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_yue_0496_unsafe_mistranslation",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_zh_001",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_zh_002",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_zh_003",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_zh_004",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_zh_005",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_zh_006",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_zh_007",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_zh_008",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_zh_009",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_zh_010",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_zh_011",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_zh_012",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_zh_014",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_zh_015",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_zh_016",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_zh_017",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_zh_018",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_zh_019",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_zh_020",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "en_zh_021",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_zh_022",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_zh_023",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_zh_026",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_zh_027",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_zh_028",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "en_zh_029",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "en_zh_030",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "yue_en_r001",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "yue_en_r002",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "yue_en_r003",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "yue_en_r004",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "yue_en_r005",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "yue_en_r006",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "yue_en_r007",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "yue_en_r008",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "yue_en_r009",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "yue_en_r010",
+      "destination": "data/yue/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "yue_en_r011",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "yue_en_r012",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "yue_en_r013",
+      "destination": "data/yue/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "yue_en_r014",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "yue_en_r015",
+      "destination": "data/yue/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "zh_en_001",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "zh_en_002",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "zh_en_003",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "zh_en_004",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "zh_en_005",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "zh_en_006",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "zh_en_007",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "zh_en_008",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "zh_en_009",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "zh_en_010",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "zh_en_011",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "zh_en_012",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "zh_en_014",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "zh_en_015",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "zh_en_016",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "zh_en_018",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "zh_en_019",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "zh_en_020",
+      "destination": "data/cmn/golden/engineered_perturbation.jsonl"
+    },
+    {
+      "id": "zh_en_021",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "zh_en_022",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "zh_en_023",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "zh_en_026",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "zh_en_027",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "zh_en_028",
+      "destination": "data/cmn/golden/weak_mt_style.jsonl"
+    },
+    {
+      "id": "zh_en_029",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    },
+    {
+      "id": "zh_en_030",
+      "destination": "data/cmn/golden/human_reviewed.jsonl"
+    }
+  ],
+  "preservation_policy": {
+    "source_fields": "all source fields retained",
+    "error_annotations_and_spans": "copied without modification",
+    "candidate_translation": "copied without modification, including empty strings",
+    "problematic_records": "not repaired, removed, or filtered; an unconvertible score is retained unchanged and recorded as a visible conversion failure",
+    "original_overall_score": "retained in andromeda_original_overall_score",
+    "dimension_scores": "retained unchanged on the original 1-5 scale"
+  },
+  "validation": {
+    "performed_by_converter": false,
+    "instruction": "Run gepa/checks.py independently on all six files and the concatenated 179-record pool; retain and report all failures."
+  }
+}

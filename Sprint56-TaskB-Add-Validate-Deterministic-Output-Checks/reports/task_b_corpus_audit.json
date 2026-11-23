@@ -1,0 +1,184 @@
+{
+  "source": "data/raw/andromeda/dataset_v7.jsonl",
+  "source_records": 675,
+  "script_orthography_records": 33,
+  "script_label_counts": {
+    "en-te::mixed_script": 4,
+    "en-yue::mixed_script": 5,
+    "en-yue::simplified_script": 12,
+    "en-yue::standard_written_chinese": 12
+  },
+  "script_check_evaluation": {
+    "status": "completed",
+    "evaluation_set": "Andromeda dataset_v7.jsonl / all 33 script_orthography records",
+    "labelled_records": 33,
+    "chinese_applicable_records": 29,
+    "non_chinese_not_applicable": {
+      "en-te::mixed_script": 4
+    },
+    "check_simplified_script": {
+      "prediction_semantics": "flag if OpenCC t2s changes candidate text (Traditional characters present)",
+      "positive_labels": [
+        "standard_written_chinese",
+        "mixed_script"
+      ],
+      "by_sublabel": {
+        "mixed_script": {
+          "n": 5,
+          "correct": 5,
+          "tp": 5,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "accuracy": 1.0
+        },
+        "simplified_script": {
+          "n": 12,
+          "correct": 1,
+          "tp": 0,
+          "fp": 11,
+          "tn": 1,
+          "fn": 0,
+          "accuracy": 0.0833
+        },
+        "standard_written_chinese": {
+          "n": 12,
+          "correct": 11,
+          "tp": 11,
+          "fp": 0,
+          "tn": 0,
+          "fn": 1,
+          "accuracy": 0.9167
+        }
+      },
+      "overall": {
+        "n": 29,
+        "correct": 17,
+        "accuracy": 0.5862
+      }
+    },
+    "check_traditional_script": {
+      "prediction_semantics": "flag if OpenCC s2t changes candidate text (Simplified-form characters present)",
+      "positive_labels": [
+        "simplified_script"
+      ],
+      "by_sublabel": {
+        "mixed_script": {
+          "n": 5,
+          "correct": 5,
+          "tp": 0,
+          "fp": 0,
+          "tn": 5,
+          "fn": 0,
+          "accuracy": 1.0
+        },
+        "simplified_script": {
+          "n": 12,
+          "correct": 11,
+          "tp": 11,
+          "fp": 0,
+          "tn": 0,
+          "fn": 1,
+          "accuracy": 0.9167
+        },
+        "standard_written_chinese": {
+          "n": 12,
+          "correct": 12,
+          "tp": 0,
+          "fp": 0,
+          "tn": 12,
+          "fn": 0,
+          "accuracy": 1.0
+        }
+      },
+      "overall": {
+        "n": 29,
+        "correct": 28,
+        "accuracy": 0.9655
+      }
+    },
+    "notes": [
+      "The two checks have opposite target-script semantics and are reported separately.",
+      "The four en-te mixed_script rows are Telugu and are excluded from Chinese script accuracy.",
+      "mixed_script in en-yue means Traditional Chinese mixed with Latin words; it is not a Simplified-vs-Traditional mixed-character label."
+    ]
+  },
+  "length_ratio_calibration": {
+    "en->zh": {
+      "min": 0.7,
+      "max": 2.6,
+      "min_source_units": 8,
+      "direction": "en->zh",
+      "pairs": 27,
+      "p05": 1.133,
+      "median": 1.455,
+      "p95": 2.0,
+      "method": "CJK characters / English words for EN->ZH/YUE; English words / CJK characters for ZH/YUE->EN",
+      "threshold_rationale": "Operational bounds widened from Andromeda reference-pair P05/P95 tails; first-pass anomaly screening only.",
+      "status": "calibrated_from_reference_pairs"
+    },
+    "en->yue": {
+      "min": 0.7,
+      "max": 2.8,
+      "min_source_units": 6,
+      "direction": "en->yue",
+      "pairs": 111,
+      "p05": 1.042,
+      "median": 1.667,
+      "p95": 2.125,
+      "method": "CJK characters / English words for EN->ZH/YUE; English words / CJK characters for ZH/YUE->EN",
+      "threshold_rationale": "Operational bounds widened from Andromeda reference-pair P05/P95 tails; first-pass anomaly screening only.",
+      "status": "calibrated_from_reference_pairs"
+    },
+    "zh->en": {
+      "min": 0.35,
+      "max": 1.45,
+      "min_source_units": 12,
+      "direction": "zh->en",
+      "pairs": 26,
+      "p05": 0.507,
+      "median": 0.723,
+      "p95": 1.115,
+      "method": "CJK characters / English words for EN->ZH/YUE; English words / CJK characters for ZH/YUE->EN",
+      "threshold_rationale": "Operational bounds widened from Andromeda reference-pair P05/P95 tails; first-pass anomaly screening only.",
+      "status": "calibrated_from_reference_pairs"
+    },
+    "yue->en": {
+      "min": 0.35,
+      "max": 1.45,
+      "min_source_units": 6,
+      "direction": "yue->en",
+      "pairs": 15,
+      "p05": 0.532,
+      "median": 0.769,
+      "p95": 1.0,
+      "method": "CJK characters / English words for EN->ZH/YUE; English words / CJK characters for ZH/YUE->EN",
+      "threshold_rationale": "Operational bounds widened from Andromeda reference-pair P05/P95 tails; first-pass anomaly screening only.",
+      "status": "calibrated_from_reference_pairs"
+    }
+  },
+  "length_ratio_thresholds": {
+    "en->zh": {
+      "min": 0.7,
+      "max": 2.6,
+      "min_source_units": 8
+    },
+    "en->yue": {
+      "min": 0.7,
+      "max": 2.8,
+      "min_source_units": 6
+    },
+    "zh->en": {
+      "min": 0.35,
+      "max": 1.45,
+      "min_source_units": 12
+    },
+    "yue->en": {
+      "min": 0.35,
+      "max": 1.45,
+      "min_source_units": 6
+    }
+  },
+  "length_ratio_method": "EN->ZH/YUE: CJK output characters divided by English source words; ZH/YUE->EN: English output words divided by CJK source characters.",
+  "threshold_rationale": "The 0.70-2.60 EN->ZH, 0.70-2.80 EN->YUE, and 0.35-1.45 reverse bounds are conservative operational guardrails widened from the Andromeda reference-pair P05/P95 tails. Minimum source-unit cutoffs use the lower-tail source length. These are first-pass anomaly screens, not semantic adequacy metrics; review false positives and recalibrate on larger production samples."
+}

@@ -1,0 +1,2 @@
+# Required for the simplified-script check and its Andromeda labelled-data audit.
+opencc-python-reimplemented>=0.1.7

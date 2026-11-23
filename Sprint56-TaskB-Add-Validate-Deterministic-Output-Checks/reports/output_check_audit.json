@@ -1,0 +1,468 @@
+{
+  "record_count": 179,
+  "direction_counts": {
+    "en->yue": 111,
+    "en->zh": 27,
+    "yue->en": 15,
+    "zh->en": 26
+  },
+  "check_counts": {
+    "en->yue": {
+      "length_ratio": 111,
+      "length_ratio:failed": 9,
+      "no_degeneration": 111,
+      "no_residual_latin": 111,
+      "no_residual_latin:failed": 2,
+      "not_empty": 111,
+      "not_source_copy": 111,
+      "not_truncated": 111,
+      "numbers_preserved": 111,
+      "numbers_preserved:failed": 1,
+      "pinyin": 111,
+      "target_script": 111,
+      "traditional_script": 111,
+      "traditional_script:failed": 16
+    },
+    "en->zh": {
+      "length_ratio": 27,
+      "length_ratio:failed": 1,
+      "no_cantonese_markers": 27,
+      "no_degeneration": 27,
+      "no_degeneration:failed": 1,
+      "no_residual_latin": 27,
+      "not_empty": 27,
+      "not_empty:failed": 1,
+      "not_source_copy": 27,
+      "not_source_copy:failed": 2,
+      "not_truncated": 27,
+      "numbers_preserved": 27,
+      "numbers_preserved:failed": 3,
+      "pinyin": 27,
+      "simplified_script": 27,
+      "target_script": 27,
+      "target_script:failed": 1
+    },
+    "yue->en": {
+      "length_ratio": 15,
+      "no_degeneration": 15,
+      "no_fullwidth_punctuation": 15,
+      "no_residual_cjk": 15,
+      "not_empty": 15,
+      "not_source_copy": 15,
+      "not_truncated": 15,
+      "numbers_preserved": 15,
+      "target_script": 15
+    },
+    "zh->en": {
+      "length_ratio": 26,
+      "length_ratio:failed": 2,
+      "no_degeneration": 26,
+      "no_fullwidth_punctuation": 26,
+      "no_residual_cjk": 26,
+      "no_residual_cjk:failed": 1,
+      "not_empty": 26,
+      "not_empty:failed": 1,
+      "not_source_copy": 26,
+      "not_source_copy:failed": 2,
+      "not_truncated": 26,
+      "numbers_preserved": 26,
+      "numbers_preserved:failed": 2,
+      "target_script": 26,
+      "target_script:failed": 1
+    }
+  },
+  "reference_check_failures": {
+    "en->yue": {
+      "traditional_script": 7
+    },
+    "en->zh": {
+      "numbers_preserved": 1
+    },
+    "zh->en": {
+      "numbers_preserved": 1
+    }
+  },
+  "annotation_counts": {
+    "en->yue": {
+      "hallucination": 12,
+      "mixed_script": 5,
+      "omission": 12,
+      "simplified_script": 12,
+      "standard_written_chinese": 12,
+      "unsafe_mistranslation": 6,
+      "wrong_entity_or_number": 12
+    },
+    "en->zh": {
+      "currency_unit_error": 1,
+      "degenerate_repetition": 1,
+      "hallucination": 2,
+      "homonym_mistranslation": 1,
+      "idiom_mistranslation": 1,
+      "idiom_suboptimal": 1,
+      "mistranslation": 1,
+      "negation_flip": 2,
+      "no_output": 1,
+      "omission": 2,
+      "register": 2,
+      "untranslated_text": 1,
+      "wrong_entity_or_number": 2
+    },
+    "yue->en": {
+      "hallucination": 1,
+      "mistranslation": 1,
+      "negation_flip": 2,
+      "omission": 1,
+      "register": 1,
+      "truncation": 1
+    },
+    "zh->en": {
+      "currency_unit_error": 1,
+      "hallucination": 1,
+      "homonym_mistranslation": 1,
+      "idiom_mistranslation": 1,
+      "idiom_suboptimal": 1,
+      "mistranslation": 1,
+      "negation_flip": 2,
+      "no_output": 1,
+      "omission": 2,
+      "register": 2,
+      "truncation": 1,
+      "untranslated_text": 1,
+      "wrong_entity_or_number": 2
+    }
+  },
+  "direct_annotation_detection": {
+    "en->yue": {
+      "simplified_script:detected": 11,
+      "simplified_script:not_detected": 1
+    },
+    "en->zh": {
+      "degenerate_repetition:detected": 1,
+      "no_output:detected": 1,
+      "untranslated_text:detected": 1
+    },
+    "yue->en": {
+      "truncation:not_detected": 1
+    },
+    "zh->en": {
+      "no_output:detected": 1,
+      "truncation:not_detected": 1,
+      "untranslated_text:detected": 1
+    }
+  },
+  "failure_examples": {
+    "en->yue:length_ratio": [
+      {
+        "id": "en_yue_0241_omission",
+        "detail": "output is far shorter than the source implies: ratio 0.57, allowed 0.70 to 2.80",
+        "evidence": [
+          "4 output units for 7 source units (en->yue)"
+        ]
+      },
+      {
+        "id": "en_yue_0137_omission",
+        "detail": "output is far shorter than the source implies: ratio 0.42, allowed 0.70 to 2.80",
+        "evidence": [
+          "5 output units for 12 source units (en->yue)"
+        ]
+      },
+      {
+        "id": "en_yue_0306_hallucination",
+        "detail": "output is far longer than the source implies: ratio 3.00, allowed 0.70 to 2.80",
+        "evidence": [
+          "24 output units for 8 source units (en->yue)"
+        ]
+      },
+      {
+        "id": "en_yue_0002_hallucination",
+        "detail": "output is far longer than the source implies: ratio 2.88, allowed 0.70 to 2.80",
+        "evidence": [
+          "23 output units for 8 source units (en->yue)"
+        ]
+      },
+      {
+        "id": "en_yue_0242_hallucination",
+        "detail": "output is far longer than the source implies: ratio 3.00, allowed 0.70 to 2.80",
+        "evidence": [
+          "18 output units for 6 source units (en->yue)"
+        ]
+      }
+    ],
+    "en->yue:no_residual_latin": [
+      {
+        "id": "en_yue_0261_mixed_script",
+        "detail": "1 Latin word(s) not present in the source",
+        "evidence": [
+          "login"
+        ]
+      },
+      {
+        "id": "en_yue_0269_mixed_script",
+        "detail": "1 Latin word(s) not present in the source",
+        "evidence": [
+          "login"
+        ]
+      }
+    ],
+    "en->yue:numbers_preserved": [
+      {
+        "id": "en_yue_0430_wrong_entity_or_number",
+        "detail": "1 numeral(s) in the source and not the translation",
+        "evidence": [
+          "5"
+        ]
+      }
+    ],
+    "en->yue:traditional_script": [
+      {
+        "id": "en_yue_0040_wrong_entity_or_number",
+        "detail": "1 Simplified-form character(s) present",
+        "evidence": [
+          "台"
+        ]
+      },
+      {
+        "id": "en_yue_0051_gold",
+        "detail": "1 Simplified-form character(s) present",
+        "evidence": [
+          "布"
+        ]
+      },
+      {
+        "id": "en_yue_0052_gold",
+        "detail": "1 Simplified-form character(s) present",
+        "evidence": [
+          "布"
+        ]
+      },
+      {
+        "id": "en_yue_0053_acceptable",
+        "detail": "1 Simplified-form character(s) present",
+        "evidence": [
+          "布"
+        ]
+      },
+      {
+        "id": "en_yue_0054_acceptable",
+        "detail": "1 Simplified-form character(s) present",
+        "evidence": [
+          "布"
+        ]
+      }
+    ],
+    "en->zh:length_ratio": [
+      {
+        "id": "en_zh_016",
+        "detail": "output is far shorter than the source implies: ratio 0.00, allowed 0.70 to 2.60",
+        "evidence": [
+          "0 output units for 10 source units (en->zh)"
+        ]
+      }
+    ],
+    "en->zh:no_degeneration": [
+      {
+        "id": "en_zh_028",
+        "detail": "fragment repeated 3 times in a row",
+        "evidence": [
+          "请确认您的邮箱地址以继续"
+        ]
+      }
+    ],
+    "en->zh:not_empty": [
+      {
+        "id": "en_zh_027",
+        "detail": "output is empty or whitespace only",
+        "evidence": []
+      }
+    ],
+    "en->zh:not_source_copy": [
+      {
+        "id": "en_zh_016",
+        "detail": "output is identical to the source",
+        "evidence": [
+          "Can you send me the updated file by tomorrow morning?"
+        ]
+      },
+      {
+        "id": "en_zh_027",
+        "detail": "output is empty",
+        "evidence": []
+      }
+    ],
+    "en->zh:numbers_preserved": [
+      {
+        "id": "en_zh_007",
+        "detail": "1 numeral(s) in the source and not the translation",
+        "evidence": [
+          "3000"
+        ]
+      },
+      {
+        "id": "en_zh_010",
+        "detail": "1 numeral(s) in the source and not the translation",
+        "evidence": [
+          "1"
+        ]
+      },
+      {
+        "id": "en_zh_011",
+        "detail": "1 numeral(s) in the source and not the translation",
+        "evidence": [
+          "20"
+        ]
+      }
+    ],
+    "en->zh:target_script": [
+      {
+        "id": "en_zh_016",
+        "detail": "output contains no cjk text at all",
+        "evidence": [
+          "Can you send me the updated file by tomorrow morning?"
+        ]
+      }
+    ],
+    "zh->en:length_ratio": [
+      {
+        "id": "zh_en_008",
+        "detail": "output is far shorter than the source implies: ratio 0.23, allowed 0.35 to 1.45",
+        "evidence": [
+          "5 output units for 22 source units (zh->en)"
+        ]
+      },
+      {
+        "id": "zh_en_016",
+        "detail": "output is far shorter than the source implies: ratio 0.00, allowed 0.35 to 1.45",
+        "evidence": [
+          "0 output units for 20 source units (zh->en)"
+        ]
+      }
+    ],
+    "zh->en:no_residual_cjk": [
+      {
+        "id": "zh_en_016",
+        "detail": "20 Chinese character(s) left in the output",
+        "evidence": [
+          "上",
+          "之",
+          "件",
+          "你",
+          "前",
+          "发",
+          "后",
+          "吗",
+          "在",
+          "天"
+        ]
+      }
+    ],
+    "zh->en:not_empty": [
+      {
+        "id": "zh_en_027",
+        "detail": "output is empty or whitespace only",
+        "evidence": []
+      }
+    ],
+    "zh->en:not_source_copy": [
+      {
+        "id": "zh_en_016",
+        "detail": "output is identical to the source",
+        "evidence": [
+          "你能在明天早上之前把更新后的文件发给我吗?"
+        ]
+      },
+      {
+        "id": "zh_en_027",
+        "detail": "output is empty",
+        "evidence": []
+      }
+    ],
+    "zh->en:numbers_preserved": [
+      {
+        "id": "zh_en_007",
+        "detail": "1 numeral(s) in the source and not the translation",
+        "evidence": [
+          "3000"
+        ]
+      },
+      {
+        "id": "zh_en_011",
+        "detail": "1 numeral(s) in the source and not the translation",
+        "evidence": [
+          "8"
+        ]
+      }
+    ],
+    "zh->en:target_script": [
+      {
+        "id": "zh_en_016",
+        "detail": "output contains no latin text at all",
+        "evidence": [
+          "你能在明天早上之前把更新后的文件发给我吗?"
+        ]
+      }
+    ]
+  },
+  "length_ratio_calibration": {
+    "en->zh": {
+      "min": 0.7,
+      "max": 2.6,
+      "min_source_units": 8,
+      "direction": "en->zh",
+      "pairs": 27,
+      "p05": 1.133,
+      "median": 1.455,
+      "p95": 2.0,
+      "method": "CJK characters / English words for EN->ZH/YUE; English words / CJK characters for ZH/YUE->EN",
+      "threshold_rationale": "Operational bounds widened from Andromeda reference-pair P05/P95 tails; first-pass anomaly screening only.",
+      "status": "calibrated_and_enabled"
+    },
+    "en->yue": {
+      "min": 0.7,
+      "max": 2.8,
+      "min_source_units": 6,
+      "direction": "en->yue",
+      "pairs": 111,
+      "p05": 1.042,
+      "median": 1.667,
+      "p95": 2.125,
+      "method": "CJK characters / English words for EN->ZH/YUE; English words / CJK characters for ZH/YUE->EN",
+      "threshold_rationale": "Operational bounds widened from Andromeda reference-pair P05/P95 tails; first-pass anomaly screening only.",
+      "status": "calibrated_and_enabled"
+    },
+    "zh->en": {
+      "min": 0.35,
+      "max": 1.45,
+      "min_source_units": 12,
+      "direction": "zh->en",
+      "pairs": 26,
+      "p05": 0.507,
+      "median": 0.723,
+      "p95": 1.115,
+      "method": "CJK characters / English words for EN->ZH/YUE; English words / CJK characters for ZH/YUE->EN",
+      "threshold_rationale": "Operational bounds widened from Andromeda reference-pair P05/P95 tails; first-pass anomaly screening only.",
+      "status": "calibrated_and_enabled"
+    },
+    "yue->en": {
+      "min": 0.35,
+      "max": 1.45,
+      "min_source_units": 6,
+      "direction": "yue->en",
+      "pairs": 15,
+      "p05": 0.532,
+      "median": 0.769,
+      "p95": 1.0,
+      "method": "CJK characters / English words for EN->ZH/YUE; English words / CJK characters for ZH/YUE->EN",
+      "threshold_rationale": "Operational bounds widened from Andromeda reference-pair P05/P95 tails; first-pass anomaly screening only.",
+      "status": "calibrated_and_enabled"
+    }
+  },
+  "notes": [
+    "A failed deterministic check is not automatically a semantic translation failure.",
+    "Annotation detection is reported only for narrowly mapped error labels.",
+    "Length-ratio checks are enabled with direction-aware Andromeda-derived guardrails; audit values are re-estimated from reference pairs.",
+    "EN->YUE upper bound is 2.80 because a curated reference pair measured 2.67; the narrower 2.60 bound would flag that reference.",
+    "OpenCC-dependent script checks are counted as unavailable, never as passed, if OpenCC is missing in the runtime.",
+    "Length ratios use CJK-character/English-word counts in the direction appropriate to each language pair; short sources below the P05 source-unit cutoff are exempt.",
+    "Reference-check failures are potential false positives; inspect them before enabling any check as a hard gate."
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "status": "completed",
+  "evaluation_set": "Andromeda dataset_v7.jsonl / all 33 script_orthography records",
+  "labelled_records": 33,
+  "chinese_applicable_records": 29,
+  "non_chinese_not_applicable": {
+    "en-te::mixed_script": 4
+  },
+  "check_simplified_script": {
+    "prediction_semantics": "flag if OpenCC t2s changes candidate text (Traditional characters present)",
+    "positive_labels": [
+      "standard_written_chinese",
+      "mixed_script"
+    ],
+    "by_sublabel": {
+      "mixed_script": {
+        "n": 5,
+        "correct": 5,
+        "tp": 5,
+        "fp": 0,
+        "tn": 0,
+        "fn": 0,
+        "accuracy": 1.0
+      },
+      "simplified_script": {
+        "n": 12,
+        "correct": 1,
+        "tp": 0,
+        "fp": 11,
+        "tn": 1,
+        "fn": 0,
+        "accuracy": 0.0833
+      },
+      "standard_written_chinese": {
+        "n": 12,
+        "correct": 11,
+        "tp": 11,
+        "fp": 0,
+        "tn": 0,
+        "fn": 1,
+        "accuracy": 0.9167
+      }
+    },
+    "overall": {
+      "n": 29,
+      "correct": 17,
+      "accuracy": 0.5862
+    }
+  },
+  "check_traditional_script": {
+    "prediction_semantics": "flag if OpenCC s2t changes candidate text (Simplified-form characters present)",
+    "positive_labels": [
+      "simplified_script"
+    ],
+    "by_sublabel": {
+      "mixed_script": {
+        "n": 5,
+        "correct": 5,
+        "tp": 0,
+        "fp": 0,
+        "tn": 5,
+        "fn": 0,
+        "accuracy": 1.0
+      },
+      "simplified_script": {
+        "n": 12,
+        "correct": 11,
+        "tp": 11,
+        "fp": 0,
+        "tn": 0,
+        "fn": 1,
+        "accuracy": 0.9167
+      },
+      "standard_written_chinese": {
+        "n": 12,
+        "correct": 12,
+        "tp": 0,
+        "fp": 0,
+        "tn": 12,
+        "fn": 0,
+        "accuracy": 1.0
+      }
+    },
+    "overall": {
+      "n": 29,
+      "correct": 28,
+      "accuracy": 0.9655
+    }
+  },
+  "notes": [
+    "The two checks have opposite target-script semantics and are reported separately.",
+    "The four en-te mixed_script rows are Telugu and are excluded from Chinese script accuracy.",
+    "mixed_script in en-yue means Traditional Chinese mixed with Latin words; it is not a Simplified-vs-Traditional mixed-character label."
+  ]
+}

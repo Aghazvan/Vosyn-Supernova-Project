@@ -1,0 +1,164 @@
+{
+  "validator": "gepa/checks.py",
+  "score_range": {
+    "overall_score_min": 0,
+    "overall_score_max": 10,
+    "dimension_scores_min": 1,
+    "dimension_scores_max": 5
+  },
+  "files": {
+    "data/cmn/golden/engineered_perturbation.jsonl": {
+      "n_total": 16,
+      "n_unique_ids": 16,
+      "n_issues": 0,
+      "valid": true,
+      "issues": [],
+      "error_type_counts": {
+        "negation_flip": 4,
+        "omission": 4,
+        "register": 4,
+        "wrong_entity_or_number": 4
+      },
+      "severity_counts": {
+        "critical": 6,
+        "major": 8,
+        "minor": 2
+      }
+    },
+    "data/cmn/golden/human_reviewed.jsonl": {
+      "n_total": 18,
+      "n_unique_ids": 18,
+      "n_issues": 0,
+      "valid": true,
+      "issues": [],
+      "error_type_counts": {},
+      "severity_counts": {}
+    },
+    "data/cmn/golden/weak_mt_style.jsonl": {
+      "n_total": 19,
+      "n_unique_ids": 19,
+      "n_issues": 0,
+      "valid": true,
+      "issues": [],
+      "error_type_counts": {
+        "currency_unit_error": 2,
+        "degenerate_repetition": 1,
+        "hallucination": 3,
+        "homonym_mistranslation": 2,
+        "idiom_mistranslation": 2,
+        "idiom_suboptimal": 2,
+        "mistranslation": 2,
+        "no_output": 2,
+        "truncation": 1,
+        "untranslated_text": 2
+      },
+      "severity_counts": {
+        "critical": 8,
+        "major": 9,
+        "minor": 2
+      }
+    },
+    "data/yue/golden/engineered_perturbation.jsonl": {
+      "n_total": 47,
+      "n_unique_ids": 47,
+      "n_issues": 0,
+      "valid": true,
+      "issues": [],
+      "error_type_counts": {
+        "hallucination": 13,
+        "mistranslation": 1,
+        "negation_flip": 2,
+        "omission": 13,
+        "unsafe_mistranslation": 6,
+        "wrong_entity_or_number": 12
+      },
+      "severity_counts": {
+        "critical": 19,
+        "major": 28
+      }
+    },
+    "data/yue/golden/human_reviewed.jsonl": {
+      "n_total": 48,
+      "n_unique_ids": 48,
+      "n_issues": 0,
+      "valid": true,
+      "issues": [],
+      "error_type_counts": {},
+      "severity_counts": {}
+    },
+    "data/yue/golden/weak_mt_style.jsonl": {
+      "n_total": 31,
+      "n_unique_ids": 31,
+      "n_issues": 0,
+      "valid": true,
+      "issues": [],
+      "error_type_counts": {
+        "mixed_script": 5,
+        "register": 1,
+        "simplified_script": 12,
+        "standard_written_chinese": 12,
+        "truncation": 1
+      },
+      "severity_counts": {
+        "critical": 1,
+        "major": 6,
+        "minor": 24
+      }
+    }
+  },
+  "combined_pool": {
+    "n_total": 179,
+    "n_unique_ids": 179,
+    "n_issues": 0,
+    "valid": true,
+    "issues": [],
+    "language_pair_counts": {
+      "en-yue": 126,
+      "en-zh": 53
+    },
+    "direction_counts": {
+      "en->yue": 111,
+      "en->zh": 27,
+      "yue->en": 15,
+      "zh->en": 26
+    },
+    "label_source_counts": {
+      "engineered_perturbation": 63,
+      "human_reviewed": 66,
+      "weak_mt_style": 50
+    },
+    "error_type_counts": {
+      "currency_unit_error": 2,
+      "degenerate_repetition": 1,
+      "hallucination": 16,
+      "homonym_mistranslation": 2,
+      "idiom_mistranslation": 2,
+      "idiom_suboptimal": 2,
+      "mistranslation": 3,
+      "mixed_script": 5,
+      "negation_flip": 6,
+      "no_output": 2,
+      "omission": 17,
+      "register": 5,
+      "simplified_script": 12,
+      "standard_written_chinese": 12,
+      "truncation": 2,
+      "unsafe_mistranslation": 6,
+      "untranslated_text": 2,
+      "wrong_entity_or_number": 16
+    },
+    "severity_counts": {
+      "critical": 34,
+      "major": 51,
+      "minor": 28
+    }
+  },
+  "preservation_check": {
+    "source_selected_records": 179,
+    "output_records": 179,
+    "unique_output_ids": 179,
+    "all_original_source_fields_retained": true,
+    "error_annotations_and_spans_identical": true,
+    "dimension_scores_identical": true
+  }
+}
